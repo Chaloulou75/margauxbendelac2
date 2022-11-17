@@ -47,7 +47,7 @@ const navigation = [
                 v-for="item in navigation"
                 :key="item.name"
                 :to="item.href"
-                class="px-3 py-2 text-xl font-medium rounded-md hover:shadow"
+                class="px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow active:scale-[0.97]"
                 >{{ item.name }}</NuxtLink
               >
             </div>
