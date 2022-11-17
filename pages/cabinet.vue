@@ -18,8 +18,8 @@
           affaires et droit international des affaires.
         </h2>
         <div class="w-full mb-6 md:hidden">
-          <img
-            src="~/assets/img/margaux.jpg"
+          <nuxt-img
+            src="/img/margaux.jpg"
             alt="Maître Margaux Bendelac"
             loading="lazy"
             class="w-full md:w-[50vh] lg:w-[400px] h-auto mx-auto shadow"
@@ -64,8 +64,8 @@
         </p>
       </div>
       <div class="hidden w-full md:basis-1/2 md:block">
-        <img
-          src="~/assets/img/margaux.jpg"
+        <nuxt-img
+          src="/img/margaux.jpg"
           alt="Maître Margaux Bendelac"
           loading="lazy"
           class="w-full md:w-[50vh] lg:w-[400px] h-auto mx-auto shadow"
