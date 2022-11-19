@@ -16,31 +16,31 @@
         de fortune du client, de la difficulté de l’affaire, des frais exposés
         par l’avocat, de la notoriété et des diligences de celui-ci.
       </p>
-      <p class="mb-8 text-xl text-justify text-black md:text-2xl md:mb-16">
+      <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Une convention d'honoraires sera conclue entre vous et Maître Margaux
         BENDELAC.
       </p>
-      <p class="text-xl font-semibold text-justify text-black md:text-2xl">
+      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
         Honoraires au temps passé
       </p>
-      <p class="mb-4 text-xl text-justify text-black md:text-2xl md:mb-8">
+      <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Une rémunération à l’heure est convenue au début de votre affaire.
       </p>
-      <p class="text-xl font-semibold text-justify text-black md:text-2xl">
+      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
         Honoraires au forfait
       </p>
-      <p class="mb-4 text-xl text-justify text-black md:text-2xl md:mb-8">
+      <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Une rémunération globale est fixée pour l’ensemble de la mission.
       </p>
-      <p class="text-xl font-semibold text-justify text-black md:text-2xl">
+      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
         Honoraires de résultat
       </p>
-      <p class="mb-10 text-xl text-justify text-black md:text-2xl md:mb-20">
+      <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Un honoraires au temps passé ou au forfait de base, auquel une
         rémunération supplémentaire sera ajoutée selon les bénéfices tirés du
         procès.
       </p>
-      <p class="text-xl font-semibold text-justify text-black md:text-2xl">
+      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
         La contestation des honoraires d’avocat
       </p>
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">

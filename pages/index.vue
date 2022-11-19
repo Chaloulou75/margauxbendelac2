@@ -17,7 +17,7 @@ const modules = [Autoplay];
       :loop="true"
       :centeredSlides="true"
       :autoplay="{
-        delay: 2800,
+        delay: 2600,
         disableOnInteraction: false,
       }"
       :modules="modules"
