@@ -14,16 +14,23 @@
         SIRET: 89123797600024<br />
         Responsable de la publication : Margaux Bendelac <br />
         Adresse : 9, rue Alfred de Vigny 75008, Paris. France<br />
-        Developpeur Web : Charles Jeandey
+        Developpeur Web :
+        <a
+          href="https://charles-jeandey.com"
+          rel="noreferrer"
+          target="_blank"
+          class="underline text-slate-800"
+          >Charles Jeandey</a
+        >
       </p>
       <p>
         Conformément à la loi n°2004-575 du 21 juin 2004 pour la confiance dans
         l’économie numérique, nous vous informons que le site internet
-        www.margauxbendelac.com est la propriété de l’Entrepreneur individuel
-        Margaux Bendelac. Le site internet www.margauxbendelac.com est hébergé
+        www.bendelac-avocat.com est la propriété de l’Entrepreneur individuel
+        Margaux Bendelac. Le site internet www.bendelac-avocat.com est hébergé
         sur les matériels informatiques de la société Netlify, 2325 3rd Street,
         Suite 215; San Francisco, Californie 94107, États-Unis d’Amérique.<br />
-        Le site www.margauxbendelac.com est régi par le droit français ; les
+        Le site www.bendelac-avocat.com est régi par le droit français ; les
         visiteurs ayant accès au site de l’étranger, doivent s’assurer du
         respect des lois localement applicables. Les mentions légales pouvant
         être modifiées à tout moment et sans préavis, nous vous engageons à les
@@ -70,7 +77,7 @@
       </h3>
       <div class="mb-6 text-lg text-justify">
         <p class="indent-8">
-          L’utilisateur du site web www.margauxbendelac.com reconnaît avoir pris
+          L’utilisateur du site web www.bendelac-avocat.com reconnaît avoir pris
           connaissance des présentes conditions d’utilisation du site et
           s’engage à les respecter.<br />
           Margaux Bendelac ne saurait être tenue pour responsable des dommages
@@ -101,7 +108,7 @@
           et décline ainsi toute responsabilité quant aux contenus, publicités,
           produits, services ou tout autre matériel disponible sur ou à partir
           de ces sites ou sources externes. Ces liens sont proposés aux
-          utilisateurs du site www.margauxbendelac.com en tant que service. La
+          utilisateurs du site www.bendelac-avocat.com en tant que service. La
           décision d’activer les liens vous appartient exclusivement. Nous vous
           rappelons que les sites non-affiliés sont soumis à leurs propres
           conditions d’utilisation.

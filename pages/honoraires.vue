@@ -58,7 +58,7 @@
       </p>
       <p class="text-xl text-justify text-black md:text-2xl">
         180 boulevard Haussmann <br />
-        75008 Versailles<br />
+        75008 Paris<br />
         E-mail :
         <span class="underline"
           ><a href="mailto:mediateur@mediateur-consommation-avocat.fr"
