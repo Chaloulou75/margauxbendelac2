@@ -62,7 +62,7 @@ const navigation = [
           v-for="item in navigation"
           :key="item.name"
           :to="item.href"
-          class="block px-3 py-1 text-base font-medium rounded-md hover:bg-gray-700 hover:text-white"
+          class="block px-3 py-1 text-base font-medium rounded-md hover:shadow"
           :aria-current="item.current ? 'page' : undefined"
           ><DisclosureButton>{{ item.name }}</DisclosureButton>
         </NuxtLink>
