@@ -20,29 +20,37 @@
         Une convention d'honoraires sera conclue entre vous et Maître Margaux
         BENDELAC.
       </p>
-      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
+      <h2
+        class="mb-3 text-2xl font-semibold text-justify text-black md:text-3xl md:mb-5"
+      >
         Honoraires au temps passé
-      </p>
+      </h2>
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Une rémunération à l’heure est convenue au début de votre affaire.
       </p>
-      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
+      <h2
+        class="mb-3 text-2xl font-semibold text-justify text-black md:text-3xl md:mb-5"
+      >
         Honoraires au forfait
-      </p>
+      </h2>
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Une rémunération globale est fixée pour l’ensemble de la mission.
       </p>
-      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
+      <h2
+        class="mb-3 text-2xl font-semibold text-justify text-black md:text-3xl md:mb-5"
+      >
         Honoraires de résultat
-      </p>
+      </h2>
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Un honoraires au temps passé ou au forfait de base, auquel une
         rémunération supplémentaire sera ajoutée selon les bénéfices tirés du
         procès.
       </p>
-      <p class="mb-3 text-2xl font-semibold text-justify text-black md:mb-5">
+      <h2
+        class="mb-3 text-2xl font-semibold text-justify text-black md:text-3xl md:mb-5"
+      >
         La contestation des honoraires d’avocat
-      </p>
+      </h2>
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         Vous avez la possibilité de saisir le médiateur de la consommation de la
         profession d’avocat, qui vous offrira son aide afin de trouver une
@@ -59,19 +67,20 @@
       <p class="text-xl text-justify text-black md:text-2xl">
         180 boulevard Haussmann <br />
         75008 Paris<br />
-        E-mail :
+        E-mail:
         <span class="underline"
-          ><a href="mailto:mediateur@mediateur-consommation-avocat.fr"
-            >mediateur@mediateur-consommation-avocat.fr</a
+          ><a href="mailto:mediateur@mediateur-consommation-avocat.fr">
+            mediateur@mediateur-consommation-avocat.fr</a
           ></span
         ><br />
-        Site Internet :<a
+        Site Internet:
+        <a
           href="https://mediateur-consommation-avocat.fr"
           rel="noreferrer"
           target="_blank"
           class="underline"
-          >https://mediateur-consommation-avocat.fr</a
-        >
+          >https://mediateur-consommation-avocat.fr
+        </a>
       </p>
     </section>
   </div>

@@ -10,9 +10,9 @@
     <section class="flex flex-col items-center justify-between h-full">
       <div class="w-full md:hidden">
         <div class="flex flex-col items-start py-2">
-          <h3 class="justify-center mb-4 text-2xl font-semibold text-black">
+          <h2 class="justify-center mb-4 text-2xl font-semibold text-black">
             Droit pénal général
-          </h3>
+          </h2>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl">
             Maître Margaux Bendelac intervient à tous les stades de la procédure
             pénale (garde à vue, instruction, audiences, aménagement de peine)
@@ -63,11 +63,11 @@
       <div class="flex items-end justify-between space-x-12">
         <div class="w-full md:basis-1/2">
           <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
-            <h3
+            <h2
               class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
             >
               Droit pénal général
-            </h3>
+            </h2>
             <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
               Maître Margaux Bendelac intervient à tous les stades de la
               procédure pénale (garde à vue, instruction, audiences, aménagement
@@ -95,9 +95,9 @@
 
       <div class="hidden w-full md:block md:py-4">
         <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
-          <h3 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
+          <h2 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
             Droit pénal des affaires
-          </h3>
+          </h2>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
             Maître Margaux Bendelac conseille et accompagne ses clients en amont
             pour identifier et prévenir le risque pénal.
@@ -109,9 +109,9 @@
           </p>
         </div>
         <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
-          <h3 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
+          <h2 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
             Droit international des affaires
-          </h3>
+          </h2>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
             Formée en droit international, Margaux Bendelac bénéficie également
             d’une expertise en droit international des affaires et intervient
