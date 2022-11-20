@@ -7,7 +7,7 @@
     >
       Honoraires
     </h1>
-    <section class="w-full max-w-4xl mx-auto my-4 md:px-4">
+    <section class="w-full mx-auto my-4 md:px-6">
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         La fixation du montant des honoraires est libre.
       </p>
