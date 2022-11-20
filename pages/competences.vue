@@ -31,7 +31,7 @@
           src="~/assets/img/palais-min.jpg"
           alt="palais de justice"
           loading="lazy"
-          class="w-full h-auto mx-auto shadow"
+          class="w-full h-auto mx-auto my-2 shadow"
         />
         <div class="flex flex-col items-start py-2">
           <h3 class="mb-4 text-2xl font-semibold text-black">
@@ -42,9 +42,10 @@
             pour identifier et prévenir le risque pénal.
           </p>
           <p class="mb-3 text-xl text-justify text-black">
-            Maître Margaux Bendelac défend ses clients mis en cause pour des
-            faits de faux et usage de faux, d’escroquerie, d’abus de confiance,
-            de blanchiment, de détournement de fonds.
+            Maître Margaux Bendelac défend ses clients, aussi bien victime que
+            mis en cause, pour des faits de faux et usage de faux,
+            d’escroquerie, d’abus de confiance, de blanchiment, de détournement
+            de fonds.
           </p>
         </div>
         <div class="flex flex-col items-start py-2">
@@ -63,7 +64,7 @@
         class="items-center justify-between hidden w-full h-full md:py-4 md:block"
       >
         <div class="flex items-center justify-between space-x-12">
-          <div class="w-full md:basis-1/2">
+          <div class="w-full md:basis-1/2 md:py-4">
             <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
               <h3
                 class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"

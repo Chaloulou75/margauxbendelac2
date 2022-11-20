@@ -34,14 +34,14 @@ const modules = [Autoplay];
         <h1
           class="max-w-xl mx-auto text-3xl font-medium text-center text-white md:text-5xl mix-blend-lighten font-cormorant"
         >
-          Avocate en Droit pénal des affaires
+          Droit pénal des affaires
         </h1>
       </swiper-slide>
       <swiper-slide>
         <h1
           class="max-w-xl mx-auto text-3xl font-medium text-center text-white md:text-5xl mix-blend-lighten font-cormorant"
         >
-          Avocate en Droit international
+          Droit international des affaires
         </h1>
       </swiper-slide>
     </swiper>
