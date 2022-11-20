@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="flex items-end justify-between space-x-12">
+      <div class="items-end justify-between hidden space-x-12 md:flex">
         <div class="w-full md:basis-1/2">
           <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
             <h2
