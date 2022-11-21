@@ -33,13 +33,13 @@ const navigation = [
           class="flex items-center justify-center flex-1 md:items-stretch md:justify-between"
         >
           <div class="flex items-center flex-shrink-0">
-            <NuxtLink
-              to="/"
+            <a
+              href="/"
               class="flex flex-col items-center text-2xl font-medium text-black hover:text-gray-800"
             >
               <span>Margaux Bendelac</span>
               <span class="text-base">Avocate au Barreau de Paris</span>
-            </NuxtLink>
+            </a>
           </div>
           <div class="hidden md:ml-6 md:block">
             <div class="flex py-2 space-x-5">
