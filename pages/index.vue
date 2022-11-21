@@ -5,6 +5,8 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 
 const modules = ref([Autoplay]);
+
+onMounted(() => {});
 </script>
 
 <template>
