@@ -1,12 +1,10 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper";
 import "swiper/css";
 
 const modules = ref([Autoplay]);
-
-onMounted(() => {});
 </script>
 
 <template>
