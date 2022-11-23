@@ -8,7 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@kevinmarrec/nuxt-pwa": "^0.10.0",
+    "@kevinmarrec/nuxt-pwa": "^0.13.0",
     "@nuxt/image-edge": "^1.0.0-27809804.194d2d6",
     "@nuxtjs/google-fonts": "^3.0.0-1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
