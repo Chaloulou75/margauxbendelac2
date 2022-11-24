@@ -81,7 +81,7 @@
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Carole Pascarel – Médiateur National de la Profession d’Avocat
         </p>
-        <p class="text-xl text-justify text-black md:text-2xl">
+        <p class="text-xl text-left text-black md:text-2xl">
           180 boulevard Haussmann <br />
           75008 Paris<br />
           E-mail:
