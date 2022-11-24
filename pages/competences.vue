@@ -103,9 +103,10 @@
             pour identifier et prévenir le risque pénal.
           </p>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
-            Maître Margaux Bendelac défend ses clients mis en cause pour des
-            faits de faux et usage de faux, d’escroquerie, d’abus de confiance,
-            de blanchiment, de détournement de fonds.
+            Maître Margaux Bendelac défend ses clients, aussi bien victime que
+            mis en cause, pour des faits de faux et usage de faux,
+            d’escroquerie, d’abus de confiance, de blanchiment, de détournement
+            de fonds.
           </p>
         </div>
         <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
