@@ -4,7 +4,7 @@
       Nous contacter
     </h3>
     <form
-      name="contact"
+      name="contactform"
       method="POST"
       netlify-honeypot="bot-field"
       data-netlify="true"
@@ -12,6 +12,7 @@
       <div class="mx-auto mt-8 text-lg">
         <div class="grid grid-cols-1 gap-6">
           <p class="hidden">
+            <input type="hidden" name="form-name" value="contactform" />
             <label>
               Don’t fill this out if you’re human:
               <input name="bot-field" />
@@ -21,7 +22,7 @@
             <span class="text-black">Nom et prénom</span>
             <input
               type="text"
-              name="name"
+              name="fullname"
               class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
               placeholder=""
             />
@@ -39,7 +40,7 @@
             <span class="text-black">Téléphone</span>
             <input
               type="tel"
-              name="phone"
+              name="telephone"
               class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
               placeholder=""
             />
