@@ -33,10 +33,10 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
               <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
               <a href="mailto:mb-avocat@outlook.fr">mb-avocat@outlook.fr</a>
             </p>
-            <p class="text-xl font-medium text-black md:text-2xl">
+            <!-- <p class="text-xl font-medium text-black md:text-2xl">
               <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 70
               44 11 87
-            </p>
+            </p> -->
           </div>
           <div>
             <h3 class="text-xl font-semibold text-black md:text-2xl">
@@ -49,10 +49,10 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
               <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
               mb-avocat@outlook.fr
             </p>
-            <p class="text-xl font-medium text-black md:text-2xl md:hidden">
+            <!-- <p class="text-xl font-medium text-black md:text-2xl md:hidden">
               <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 70
               44 11 87
-            </p>
+            </p> -->
             <p class="text-xl font-medium text-black md:text-2xl">
               <span class="inline-block w-4 h-4"><MapPinIcon /></span> 9, rue
               Alfred de Vigny
