@@ -22,6 +22,7 @@
     "@headlessui/vue": "^1.7.4",
     "@heroicons/vue": "^2.0.13",
     "@vueuse/nuxt": "^9.5.0",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.4",
+    "vue-gtag": "^2.0.1"
   }
 }
