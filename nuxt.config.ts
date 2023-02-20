@@ -17,6 +17,10 @@ export default defineNuxtConfig({
           content:
             "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires.",
         },
+        {
+          name: "google-site-verification",
+          content: "b61mVcI3EbJ5l66EfMJ1RQ24Dv4gfrJe301LXHMew2Y"
+        },
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
