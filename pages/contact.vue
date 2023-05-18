@@ -31,7 +31,9 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
           <div class="hidden md:basis-1/2 md:block">
             <p class="text-xl font-medium text-black md:text-2xl">
               <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
-              <a href="mailto:mb-avocat@outlook.fr">mb-avocat@outlook.fr</a>
+              <a href="mailto:margaux.bendelac-avocat@outlook.fr"
+                >margaux.bendelac-avocat@outlook.fr</a
+              >
             </p>
             <!-- <p class="text-xl font-medium text-black md:text-2xl">
               <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 70
@@ -47,7 +49,9 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
             </p>
             <p class="text-xl font-medium text-black md:text-2xl md:hidden">
               <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
-              mb-avocat@outlook.fr
+              <a href="mailto:margaux.bendelac-avocat@outlook.fr"
+                >margaux.bendelac-avocat@outlook.fr</a
+              >
             </p>
             <!-- <p class="text-xl font-medium text-black md:text-2xl md:hidden">
               <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 70

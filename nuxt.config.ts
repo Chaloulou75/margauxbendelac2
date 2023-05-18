@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         },
         {
           name: "google-site-verification",
-          content: "b61mVcI3EbJ5l66EfMJ1RQ24Dv4gfrJe301LXHMew2Y"
+          content: "b61mVcI3EbJ5l66EfMJ1RQ24Dv4gfrJe301LXHMew2Y",
         },
       ],
       link: [
@@ -61,7 +61,11 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@vueuse/nuxt",
     "@kevinmarrec/nuxt-pwa",
+    "nuxt-gtag",
   ],
+  gtag: {
+    id: 'G-JF1NEH7R9K'
+  },
   googleFonts: {
     download: true,
     preconnect: true,
