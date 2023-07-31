@@ -58,11 +58,11 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
               44 11 87
             </p> -->
             <p class="text-xl font-medium text-black md:text-2xl">
-              <span class="inline-block w-4 h-4"><MapPinIcon /></span> 9, rue
-              Alfred de Vigny
+              <span class="inline-block w-4 h-4"><MapPinIcon /></span> 49 Rue
+              Saint-Roch
             </p>
             <p class="text-xl font-medium text-black md:text-2xl">
-              75008 Paris
+              75001 Paris
             </p>
 
             <p class="text-xl font-medium text-black md:text-2xl">
