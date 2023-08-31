@@ -1,5 +1,5 @@
 <script setup>
-import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
+import { AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
 </script>
 <template>
   <div
@@ -58,15 +58,15 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
               44 11 87
             </p> -->
             <p class="text-xl font-medium text-black md:text-2xl">
-              <span class="inline-block w-4 h-4"><MapPinIcon /></span> 49 Rue
-              Saint-Roch
+              <span class="inline-block w-4 h-4"><MapPinIcon /></span> 118, rue
+              la Boetie
             </p>
             <p class="text-xl font-medium text-black md:text-2xl">
-              75001 Paris
+              75008 Paris
             </p>
 
             <p class="text-xl font-medium text-black md:text-2xl">
-              Toque C 245
+              Toque C 2233
             </p>
           </div>
         </div>
