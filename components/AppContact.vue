@@ -35,8 +35,8 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
             mb-avocat@outlook.fr
           </p>
           <p class="text-xl font-medium text-black md:text-2xl">
-            <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 70 44
-            11 87
+            <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 62 35
+            22 98
           </p>
           <p class="text-xl font-medium text-black md:text-2xl">
             <span class="inline-block w-4 h-4"><MapPinIcon /></span> 9, rue
