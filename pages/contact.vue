@@ -1,5 +1,5 @@
 <script setup>
-import { AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
+import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
 </script>
 <template>
   <div

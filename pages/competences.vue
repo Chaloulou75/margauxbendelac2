@@ -19,12 +19,17 @@
             et devant l’ensemble des juridictions répressives (Tribunal de
             Police, Tribunal correctionnel, Cour d'Assises, Juge de
             l’Application des peines), pour les personnes victimes comme mises
-            en cause.
+            en cause (majeures et mineures).
           </p>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl">
             Maître Margaux Bendelac a, en outre, développé une expertise dans la
             défense des femmes victimes de violences (physiques, psychologiques,
             économiques,…).
+          </p>
+          <p class="mb-3 text-xl text-justify text-black md:text-2xl">
+            Maître Margaux Bendelac dispose d’une pratique régulière et
+            approfondie en matière de droit disciplinaire (élèves, étudiants,
+            fonctionnaires) et intervient devant les conseils de discipline.
           </p>
         </div>
         <img
