@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires.",
+            "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires. Urgence pénale. Avocat pénaliste Paris",
         },
         {
           name: "google-site-verification",
@@ -64,7 +64,7 @@ export default defineNuxtConfig({
     "nuxt-gtag",
   ],
   gtag: {
-    id: 'G-JF1NEH7R9K'
+    id: "G-JF1NEH7R9K",
   },
   googleFonts: {
     download: true,
