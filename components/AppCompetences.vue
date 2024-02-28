@@ -1,19 +1,19 @@
 <template>
   <div>
     <div class="pt-16 md:pt-24" id="competencesMargaux"></div>
-    <h2
+    <h1
       class="mb-4 text-3xl font-thin text-center text-black md:mb-8 md:text-left"
     >
       Compétences
-    </h2>
+    </h1>
 
     <section class="grid h-auto grid-cols-1 gap-4 md:gap-12 place-items-start">
       <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
-        <h3
+        <h2
           class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
         >
           Droit pénal général
-        </h3>
+        </h2>
         <p
           class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5 indent-4"
         >
@@ -40,9 +40,9 @@
         </p>
       </div>
       <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
-        <h3 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
+        <h2 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
           Droit pénal des affaires
-        </h3>
+        </h2>
         <p
           class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5 indent-4"
         >
@@ -58,9 +58,9 @@
         </p>
       </div>
       <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
-        <h3 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
+        <h2 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
           Droit international des affaires
-        </h3>
+        </h2>
         <p
           class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5 indent-4"
         >

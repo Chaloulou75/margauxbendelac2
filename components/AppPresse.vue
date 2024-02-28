@@ -1,10 +1,10 @@
 <template>
   <div class="pt-16 md:pt-24" id="presseMargaux">
-    <h2
+    <h1
       class="mb-4 text-3xl font-thin text-center text-black md:mb-8 md:text-left"
     >
       Revue de Presse
-    </h2>
+    </h1>
 
     <div
       class="grid h-auto grid-cols-1 gap-4 md:gap-12 md:grid-cols-2 place-items-start"

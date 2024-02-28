@@ -6,7 +6,7 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
     class="flex flex-col items-center justify-start w-full h-auto px-2 pb-12 mx-auto mb-auto md:items-start max-w-7xl md:px-8"
   >
     <div class="pt-16 md:pt-24" id="contactMargaux"></div>
-    <h2 class="mb-4 text-3xl font-thin text-black md:mb-8">Contact</h2>
+    <h1 class="mb-4 text-3xl font-thin text-black md:mb-8">Contact</h1>
 
     <section
       class="flex flex-col items-start justify-between w-full space-y-10 md:space-x-6 md:flex-row md:space-y-0"
@@ -14,19 +14,19 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
       <div class="flex flex-col w-full max-w-xl px-4 mx-auto md:px-0">
         <FormContact />
         <div class="mt-8">
-          <h3
+          <h2
             class="my-4 text-2xl font-semibold text-center text-black md:text-3xl md:mt-8"
           >
             Nous trouver
-          </h3>
+          </h2>
           <div class="w-full mx-auto my-4 aspect-w-16 aspect-h-9">
             <LazyGoogleMap />
           </div>
         </div>
         <div class="flex flex-col items-start mx-auto mt-8 space-y-1">
-          <h3 class="text-xl font-semibold text-black md:text-2xl">
+          <h2 class="text-xl font-semibold text-black md:text-2xl">
             Margaux BENDELAC
-          </h3>
+          </h2>
           <p class="mb-2 text-xl font-medium text-black md:text-2xl">
             Avocate à la Cour
           </p>

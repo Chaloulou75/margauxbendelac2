@@ -4,7 +4,26 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navigation = [
   { name: "Cabinet", href: "/cabinet" },
-  { name: "Compétences", href: "/competences" },
+  {
+    name: "Compétences",
+    href: "/competences",
+    subItems: [
+      { name: "Droit pénal général", href: "/competences#general" },
+      {
+        name: "Droit pénal des affaires",
+        href: "/competences#affaires",
+      },
+      {
+        name: "Droit international des affaires",
+        href: "/competences#internationnal",
+      },
+      {
+        name: "Procédure disciplinaire",
+        href: "/competences#proceduredisciplinaire",
+      },
+    ],
+  },
+  { name: "Stades de la procédure pénale", href: "/competences" },
   { name: "Presse", href: "/presse" },
   { name: "Honoraires", href: "/honoraires" },
   { name: "Contact", href: "/contact" },
@@ -17,7 +36,7 @@ const navigation = [
     class="bg-white text-black w-full sticky top-0 z-50 bg-opacity-70 backdrop-filter backdrop-blur-[12px] border-none"
     v-slot="{ open }"
   >
-    <div class="px-2 mx-auto max-w-7xl md:px-8">
+    <div class="max-w-full px-2 mx-auto md:px-8">
       <div class="relative flex items-center justify-between h-16 md:h-24">
         <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
           <!-- Mobile menu button-->
@@ -33,23 +52,49 @@ const navigation = [
           class="flex items-center justify-center flex-1 md:items-stretch md:justify-between"
         >
           <div class="flex items-center flex-shrink-0">
-            <a
-              href="/"
-              class="flex flex-col items-center text-2xl font-medium text-black hover:text-gray-800"
+            <NuxtLink
+              to="/"
+              class="flex flex-col items-center text-2xl font-medium text-black hover:text-gray-800 shrink-0"
             >
               <span>Margaux Bendelac</span>
               <span class="text-base">Avocate au Barreau de Paris</span>
-            </a>
+            </NuxtLink>
           </div>
           <div class="hidden md:ml-6 md:block">
             <div class="flex py-2 space-x-5">
-              <NuxtLink
-                v-for="item in navigation"
-                :key="item.name"
-                :to="item.href"
-                class="px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow active:scale-[0.97]"
-                >{{ item.name }}</NuxtLink
-              >
+              <template v-for="(item, index) in navigation">
+                <NuxtLink
+                  v-if="!item.subItems"
+                  :key="index"
+                  :to="item.href"
+                  class="px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow active:scale-[0.97] shrink-0"
+                  >{{ item.name }}</NuxtLink
+                >
+                <Disclosure v-else>
+                  <template #default="{ open }">
+                    <div class="relative">
+                      <DisclosureButton
+                        class="px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow active:scale-[0.97] shrink-0"
+                      >
+                        {{ item.name }}
+                      </DisclosureButton>
+                      <DisclosurePanel
+                        class="absolute left-0 z-10 w-full mt-1 bg-white rounded-md shadow-lg top-full"
+                      >
+                        <div class="py-1">
+                          <NuxtLink
+                            v-for="subItem in item.subItems"
+                            :key="subItem.name"
+                            :to="subItem.href"
+                            class="block px-4 py-2 text-base font-medium rounded-md hover:bg-gray-100"
+                            >{{ subItem.name }}</NuxtLink
+                          >
+                        </div>
+                      </DisclosurePanel>
+                    </div>
+                  </template>
+                </Disclosure>
+              </template>
             </div>
           </div>
         </div>

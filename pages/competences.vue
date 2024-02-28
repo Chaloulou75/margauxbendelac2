@@ -7,9 +7,9 @@
     >
       Compétences
     </h1>
-    <section class="flex flex-col items-center justify-between h-full">
+    <div class="flex flex-col items-center justify-between h-full">
       <div class="w-full md:hidden">
-        <div class="flex flex-col items-start py-2">
+        <section class="flex flex-col items-start py-2" id="general">
           <h2 class="justify-center mb-4 text-2xl font-semibold text-black">
             Droit pénal général
           </h2>
@@ -31,14 +31,14 @@
             approfondie en matière de droit disciplinaire (élèves, étudiants,
             fonctionnaires) et intervient devant les conseils de discipline.
           </p>
-        </div>
+        </section>
         <img
           src="~/assets/img/palais-min.jpg"
           alt="palais de justice"
           loading="lazy"
           class="w-full h-auto mx-auto my-2 shadow"
         />
-        <div class="flex flex-col items-start py-2">
+        <section class="flex flex-col items-start py-2" id="affaires">
           <h3 class="mb-4 text-2xl font-semibold text-black">
             Droit pénal des affaires
           </h3>
@@ -52,8 +52,8 @@
             d’escroquerie, d’abus de confiance, de blanchiment, de détournement
             de fonds.
           </p>
-        </div>
-        <div class="flex flex-col items-start py-2">
+        </section>
+        <section class="flex flex-col items-start py-2" id="internationnal">
           <h3 class="mb-4 text-2xl font-semibold text-black">
             Droit international des affaires
           </h3>
@@ -62,12 +62,15 @@
             d’une expertise en droit international des affaires et intervient
             aussi bien en conseil qu’en contentieux.
           </p>
-        </div>
+        </section>
       </div>
 
       <div class="items-end justify-between hidden space-x-12 md:flex">
         <div class="w-full md:basis-1/2">
-          <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
+          <section
+            class="flex flex-col items-start py-2 md:px-6 md:py-4"
+            id="general"
+          >
             <h2
               class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
             >
@@ -91,7 +94,7 @@
               approfondie en matière de droit disciplinaire (élèves, étudiants,
               fonctionnaires) et intervient devant les conseils de discipline.
             </p>
-          </div>
+          </section>
         </div>
         <div class="hidden w-full md:basis-1/2 md:block">
           <img
@@ -104,7 +107,10 @@
       </div>
 
       <div class="hidden w-full md:block md:py-4">
-        <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
+        <section
+          class="flex flex-col items-start py-2 md:px-6 md:py-4"
+          id="affaires"
+        >
           <h2 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
             Droit pénal des affaires
           </h2>
@@ -118,8 +124,11 @@
             d’escroquerie, d’abus de confiance, de blanchiment, de détournement
             de fonds.
           </p>
-        </div>
-        <div class="flex flex-col items-start py-2 md:px-6 md:py-4">
+        </section>
+        <section
+          class="flex flex-col items-start py-2 md:px-6 md:py-4"
+          id="internationnal"
+        >
           <h2 class="mb-4 text-2xl font-semibold text-black md:text-3xl">
             Droit international des affaires
           </h2>
@@ -128,8 +137,8 @@
             d’une expertise en droit international des affaires et intervient
             aussi bien en conseil qu’en contentieux.
           </p>
-        </div>
+        </section>
       </div>
-    </section>
+    </div>
   </div>
 </template>
