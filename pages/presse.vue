@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center justify-start w-full h-auto px-2 py-8 mx-auto mb-auto max-w-7xl md:px-8 md:items-start"
+    class="flex flex-col items-center justify-start w-full h-auto max-w-full px-2 py-8 mx-auto mb-auto md:px-8 md:items-start"
   >
     <h1
       class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left"

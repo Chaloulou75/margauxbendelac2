@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center justify-center w-full h-full px-2 py-8 mx-auto max-w-7xl md:px-8"
+    class="flex flex-col items-center justify-center w-full h-full max-w-full px-2 py-8 mx-auto md:px-8"
   >
     <h1
       class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left"
@@ -14,8 +14,17 @@
         <h2
           class="mb-4 text-xl font-semibold text-justify text-black md:mb-5 md:text-2xl"
         >
-          Maître Margaux Bendelac exerce en droit pénal général, droit pénal des
-          affaires et droit international des affaires.
+          Maître Margaux Bendelac exerce en
+          <NuxtLink :to="{ path: '/competences', hash: '#general' }"
+            >droit pénal général</NuxtLink
+          >,
+          <NuxtLink :to="{ path: '/competences', hash: '#affaires' }"
+            >droit pénal des affaires</NuxtLink
+          >
+          et
+          <NuxtLink :to="{ path: '/competences', hash: '#internationnal' }"
+            >international des affaires</NuxtLink
+          >.
         </h2>
         <div class="w-full mb-6 md:hidden">
           <img
@@ -45,8 +54,17 @@
         <p
           class="mb-3 text-xl font-semibold text-justify text-black md:mb-5 md:text-2xl"
         >
-          Maître Margaux Bendelac exerce en droit pénal général, droit pénal des
-          affaires et droit international des affaires.
+          Maître Margaux Bendelac exerce en
+          <NuxtLink :to="{ path: '/competences', hash: '#general' }"
+            >droit pénal général</NuxtLink
+          >,
+          <NuxtLink :to="{ path: '/competences', hash: '#affaires' }"
+            >droit pénal des affaires</NuxtLink
+          >
+          et
+          <NuxtLink :to="{ path: '/competences', hash: '#internationnal' }"
+            >international des affaires</NuxtLink
+          >..
         </p>
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Diplômée d’un Master en Droit international des affaires de
