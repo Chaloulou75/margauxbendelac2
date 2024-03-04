@@ -64,6 +64,7 @@ export default defineNuxtConfig({
     "@vite-pwa/nuxt",
     "nuxt-gtag",
   ],
+  plugins: ["~/plugins/preline.client.ts"],
   site: {
     url: "https://www.bendelac-avocat.com",
     name: "Margaux Bendelac | Avocate à la Cour",

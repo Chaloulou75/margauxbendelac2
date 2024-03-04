@@ -14,7 +14,7 @@
         efficace dans les moments cruciaux de votre affaire. Les situations
         d'urgence pénale exigent une action immédiate et une expertise
         approfondie pour protéger vos droits et vos libertés. Voici un aperçu
-        des diverses procédures pénales dans lequel le cabinet intervient :
+        des diverses procédures pénales dans lequel le cabinet intervient:
       </p>
       <section id="audition" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">

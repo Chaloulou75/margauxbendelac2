@@ -11,6 +11,7 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
+    "./node_modules/preline/preline.js",
   ],
   theme: {
     colors: {
@@ -20,6 +21,7 @@ module.exports = {
       white: colors.white,
       gray: colors.gray,
       slate: colors.slate,
+      blue: colors.blue,
     },
     extend: {
       fontFamily: {
@@ -39,5 +41,6 @@ module.exports = {
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/aspect-ratio"),
+    require("preline/plugin"),
   ],
 };

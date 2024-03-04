@@ -15,14 +15,20 @@
           class="mb-4 text-xl font-semibold text-justify text-black md:mb-5 md:text-2xl"
         >
           Maître Margaux Bendelac exerce en
-          <NuxtLink :to="{ path: '/competences', hash: '#general' }"
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#general' }"
             >droit pénal général</NuxtLink
           >,
-          <NuxtLink :to="{ path: '/competences', hash: '#affaires' }"
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#affaires' }"
             >droit pénal des affaires</NuxtLink
           >
           et
-          <NuxtLink :to="{ path: '/competences', hash: '#internationnal' }"
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
           >.
         </h2>
@@ -38,7 +44,12 @@
           Diplômée d’un Master en Droit international des affaires de
           l’Université La Sorbonne – Paris I, Maître Margaux Bendelac a
           également développé une expertise en droit pénal qu’elle met au
-          service de ses clients à tous les stades de la procédure.
+          service de ses clients à tous
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#internationnal' }"
+            >les stades de la procédure</NuxtLink
+          >.
         </p>
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           A l’écoute, réactive et rigoureuse, Maître Margaux Bendelac offre à
@@ -55,14 +66,20 @@
           class="mb-3 text-xl font-semibold text-justify text-black md:mb-5 md:text-2xl"
         >
           Maître Margaux Bendelac exerce en
-          <NuxtLink :to="{ path: '/competences', hash: '#general' }"
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#general' }"
             >droit pénal général</NuxtLink
           >,
-          <NuxtLink :to="{ path: '/competences', hash: '#affaires' }"
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#affaires' }"
             >droit pénal des affaires</NuxtLink
           >
           et
-          <NuxtLink :to="{ path: '/competences', hash: '#internationnal' }"
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
           >..
         </p>
@@ -70,7 +87,12 @@
           Diplômée d’un Master en Droit international des affaires de
           l’Université La Sorbonne – Paris I, Maître Margaux Bendelac a
           également développé une expertise en droit pénal qu’elle met au
-          service de ses clients à tous les stades de la procédure.
+          service de ses clients à tous
+          <NuxtLink
+            class="hover:text-blue-800"
+            :to="{ path: '/competences', hash: '#internationnal' }"
+            >les stades de la procédure</NuxtLink
+          >.
         </p>
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           A l’écoute, réactive et rigoureuse, Maître Margaux Bendelac offre à
