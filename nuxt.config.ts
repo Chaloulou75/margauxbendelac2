@@ -60,9 +60,17 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/image-edge",
     "@vueuse/nuxt",
+    "@nuxtjs/seo",
     "@kevinmarrec/nuxt-pwa",
     "nuxt-gtag",
   ],
+  site: {
+    url: "https://www.bendelac-avocat.com",
+    name: "Margaux Bendelac | Avocate à la Cour",
+    description:
+      "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires. Urgence pénale. Avocat pénaliste Paris",
+    defaultLocale: "fr",
+  },
   gtag: {
     id: "G-JF1NEH7R9K",
   },

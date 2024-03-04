@@ -8,18 +8,25 @@ const navigation = [
     name: "Compétences",
     href: "/competences",
     subItems: [
-      { name: "Droit pénal général", href: "/competences#general" },
+      {
+        name: "Droit pénal général",
+        href: "/competences",
+        hash: "#general",
+      },
       {
         name: "Droit pénal des affaires",
-        href: "/competences#affaires",
+        href: "/competences",
+        hash: "#affaires",
       },
       {
         name: "Droit international des affaires",
-        href: "/competences#internationnal",
+        href: "/competences",
+        hash: "#internationnal",
       },
       {
         name: "Procédure disciplinaire",
-        href: "/competences#proceduredisciplinaire",
+        href: "/competences",
+        hash: "#proceduredisciplinaire",
       },
     ],
   },
@@ -79,13 +86,13 @@ const navigation = [
                         {{ item.name }}
                       </DisclosureButton>
                       <DisclosurePanel
-                        class="absolute left-0 z-10 w-full mt-1 bg-white rounded-md shadow-lg top-full"
+                        class="absolute left-0 z-10 w-auto mt-1 bg-white rounded-md shadow-lg top-full whitespace-nowrap"
                       >
                         <div class="py-1">
                           <NuxtLink
                             v-for="subItem in item.subItems"
                             :key="subItem.name"
-                            :to="subItem.href"
+                            :to="{ path: subItem.href, hash: subItem.hash }"
                             class="block px-4 py-2 text-base font-medium rounded-md hover:bg-gray-100"
                             >{{ subItem.name }}</NuxtLink
                           >
@@ -115,3 +122,4 @@ const navigation = [
     </DisclosurePanel>
   </Disclosure>
 </template>
+<!-- :to="{ path: subItem.href, hash: subItem.hash }" -->
