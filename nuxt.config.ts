@@ -58,10 +58,10 @@ export default defineNuxtConfig({
   css: ["~/assets/css/tailwind.css"],
   modules: [
     "@nuxtjs/google-fonts",
-    "@nuxt/image-edge",
+    "@nuxt/image",
     "@vueuse/nuxt",
     "@nuxtjs/seo",
-    "@kevinmarrec/nuxt-pwa",
+    "@vite-pwa/nuxt",
     "nuxt-gtag",
   ],
   site: {
