@@ -3,11 +3,11 @@
     class="flex flex-col items-center justify-center w-full h-full max-w-full px-2 py-8 mx-auto md:px-8"
   >
     <h1
-      class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left"
+      class="w-full mb-4 text-3xl font-semibold text-center text-black md:mb-8 md:text-left md:px-6"
     >
-      Stade de la procédure pénale
+      Stades de la procédure pénale
     </h1>
-    <div class="my-4 space-y-12">
+    <div class="my-4 space-y-12 md:px-6">
       <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         En tant qu'avocate exerçant en droit pénal sur l’ensemble du territoire
         français, le cabinet se consacre à assurer une défense rigoureuse et

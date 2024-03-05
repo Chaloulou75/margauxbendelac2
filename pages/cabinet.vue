@@ -16,18 +16,18 @@
         >
           Maître Margaux Bendelac exerce en
           <NuxtLink
-            class="hover:text-blue-800"
+            class="text-blue-900 hover:text-blue-800"
             :to="{ path: '/competences', hash: '#general' }"
             >droit pénal général</NuxtLink
           >,
           <NuxtLink
-            class="hover:text-blue-800"
+            class="text-blue-900 hover:text-blue-800"
             :to="{ path: '/competences', hash: '#affaires' }"
             >droit pénal des affaires</NuxtLink
           >
           et
           <NuxtLink
-            class="hover:text-blue-800"
+            class="text-blue-900 hover:text-blue-800"
             :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
           >.
@@ -46,8 +46,8 @@
           également développé une expertise en droit pénal qu’elle met au
           service de ses clients à tous
           <NuxtLink
-            class="hover:text-blue-800"
-            :to="{ path: '/competences', hash: '#internationnal' }"
+            class="text-blue-900 hover:text-blue-800"
+            :to="{ path: '/stades-de-la-procedure-penale' }"
             >les stades de la procédure</NuxtLink
           >.
         </p>
@@ -67,18 +67,18 @@
         >
           Maître Margaux Bendelac exerce en
           <NuxtLink
-            class="hover:text-blue-800"
+            class="text-blue-900 hover:text-blue-800"
             :to="{ path: '/competences', hash: '#general' }"
             >droit pénal général</NuxtLink
           >,
           <NuxtLink
-            class="hover:text-blue-800"
+            class="text-blue-900 hover:text-blue-800"
             :to="{ path: '/competences', hash: '#affaires' }"
             >droit pénal des affaires</NuxtLink
           >
           et
           <NuxtLink
-            class="hover:text-blue-800"
+            class="text-blue-900 hover:text-blue-800"
             :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
           >..
@@ -89,8 +89,8 @@
           également développé une expertise en droit pénal qu’elle met au
           service de ses clients à tous
           <NuxtLink
-            class="hover:text-blue-800"
-            :to="{ path: '/competences', hash: '#internationnal' }"
+            class="text-blue-900 hover:text-blue-800"
+            :to="{ path: '/stades-de-la-procedure-penale' }"
             >les stades de la procédure</NuxtLink
           >.
         </p>

@@ -93,44 +93,6 @@ const navigation = [
   { label: "Honoraires", href: "/honoraires" },
   { label: "Contact", href: "/contact" },
 ];
-
-const navigationMobile = [
-  { label: "Cabinet", href: "/cabinet" },
-  {
-    label: "Compétences",
-    href: "/competences",
-    subItems: [
-      {
-        label: "Droit pénal général",
-        href: "/competences",
-        hash: "#penal-general",
-      },
-      {
-        label: "Droit pénal des affaires",
-        href: "/competences",
-        hash: "#penal-affaires",
-      },
-      {
-        label: "Droit international des affaires",
-        href: "/competences",
-        hash: "#internationnal-affaires",
-      },
-      {
-        label: "Procédure disciplinaire",
-        href: "/competences",
-        hash: "#procedure-disciplinaire",
-      },
-    ],
-  },
-  {
-    label: "Stades de la procédure pénale",
-    href: "/competences",
-    hash: "#procedure-disciplinaire",
-  },
-  { label: "Presse", href: "/presse" },
-  { label: "Honoraires", href: "/honoraires" },
-  { label: "Contact", href: "/contact" },
-];
 </script>
 
 <template>
