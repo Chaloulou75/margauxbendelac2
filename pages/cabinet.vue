@@ -86,7 +86,7 @@
             class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
-          >..
+          >.
         </p>
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Diplômée d’un Master en Droit international des affaires de
