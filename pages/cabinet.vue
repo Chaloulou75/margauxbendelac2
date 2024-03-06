@@ -8,7 +8,7 @@
       Le cabinet
     </h1>
     <section
-      class="flex flex-col items-center justify-between h-full my-4 space-x-0 md:flex-row md:space-x-12"
+      class="flex flex-col items-start justify-between h-full my-4 space-x-0 md:flex-row md:space-x-12"
     >
       <div class="w-full md:basis-1/2 md:hidden">
         <h2
@@ -16,18 +16,18 @@
         >
           Maître Margaux Bendelac exerce en
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#general' }"
             >droit pénal général</NuxtLink
           >,
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#affaires' }"
             >droit pénal des affaires</NuxtLink
           >
           et
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
           >.
@@ -46,7 +46,7 @@
           également développé une expertise en droit pénal qu’elle met au
           service de ses clients à tous
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/stades-de-la-procedure-penale' }"
             >les stades de la procédure</NuxtLink
           >.
@@ -54,6 +54,11 @@
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           A l’écoute, réactive et rigoureuse, Maître Margaux Bendelac offre à
           ses clients un accompagnement juridique sur mesure.
+        </p>
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
+          Maître Margaux Bendelac est également chargée d’enseignement en droit
+          pénal à l’Université de droit et de sciences politiques de
+          Saint-Quentin-en-Yvelines.
         </p>
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Maître Margaux Bendelac travaille aussi bien en français qu’en
@@ -67,18 +72,18 @@
         >
           Maître Margaux Bendelac exerce en
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#general' }"
             >droit pénal général</NuxtLink
           >,
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#affaires' }"
             >droit pénal des affaires</NuxtLink
           >
           et
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/competences', hash: '#internationnal' }"
             >international des affaires</NuxtLink
           >..
@@ -89,7 +94,7 @@
           également développé une expertise en droit pénal qu’elle met au
           service de ses clients à tous
           <NuxtLink
-            class="text-blue-900 hover:text-blue-800"
+            class="text-blue-900 underline hover:text-blue-800"
             :to="{ path: '/stades-de-la-procedure-penale' }"
             >les stades de la procédure</NuxtLink
           >.
@@ -97,6 +102,11 @@
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           A l’écoute, réactive et rigoureuse, Maître Margaux Bendelac offre à
           ses clients un accompagnement juridique sur mesure.
+        </p>
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
+          Maître Margaux Bendelac est également chargée d’enseignement en droit
+          pénal à l’Université de droit et de sciences politiques de
+          Saint-Quentin-en-Yvelines.
         </p>
         <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Maître Margaux Bendelac travaille aussi bien en français qu’en
