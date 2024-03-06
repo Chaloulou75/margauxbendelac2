@@ -1,10 +1,11 @@
 <template>
   <div
-    class="flex flex-col justify-between w-full min-h-screen font-ebgaramond"
+    class="relative flex flex-col justify-between w-full min-h-screen font-ebgaramond"
   >
     <AppNavigation />
     <NuxtPage />
     <LazyAppFooter />
+    <Phone />
   </div>
 </template>
 
