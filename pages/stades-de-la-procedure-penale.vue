@@ -15,7 +15,7 @@
         d'urgence pénale exigent une action immédiate et une expertise
         approfondie pour protéger vos droits et vos libertés. Voici un aperçu
         des diverses procédures pénales dans lequel le cabinet intervient:<span
-          id="audition"
+          id="audition-libre"
         ></span>
       </p>
       <section class="space-y-4">
@@ -42,7 +42,7 @@
           rapidement pour garantir le respect de vos droits, vous assistera lors
           des auditions et ou confrontations, et faire valoir toutes les
           garanties procédurales prévues par la loi.<span
-            id="composition"
+            id="composition-penale"
           ></span>
         </p>
       </section>
@@ -58,7 +58,7 @@
           attentivement les implications juridiques et ses conséquences. Le
           cabinet vous conseillera sur la meilleure stratégie à adopter.
         </p>
-        <span id="comparution"></span>
+        <span id="comparution-culpabilite"></span>
       </section>
       <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
@@ -96,7 +96,7 @@
           contrôle judiciaire, demande de modification du contrôle judiciaire),
           en veillant à ce que vos droits soient respectés et en formulant des
           demandes d’actes durant l’information pour recueillir les preuves
-          nécessaires à votre défense. <span id="placement"></span>
+          nécessaires à votre défense. <span id="placement-controle"></span>
         </p>
       </section>
       <section class="space-y-4">
@@ -133,7 +133,7 @@
           En cas de renvoi devant la cour d'assises, le cabinet assure une
           défense robuste et stratégique, en mobilisant toutes les ressources
           nécessaires pour garantir un procès équitable et protéger vos droits
-          fondamentaux. <span id="contentieux"></span>
+          fondamentaux. <span id="contentieux-penitentiaire"></span>
         </p>
       </section>
 
@@ -147,7 +147,8 @@
           êtes poursuivi pour avoir commis une faute disciplinaire de 1 er , 2
           nd ou 3 ème degré. Le cabinet vous assistera si vous faites l’objet
           d’une sanction disciplinaire (placement en quartier disciplinaire,
-          sanction de confinement ou autre). <span id="amenagement"></span>
+          sanction de confinement ou autre).
+          <span id="amenagement-peine"></span>
         </p>
       </section>
 

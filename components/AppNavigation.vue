@@ -34,7 +34,7 @@ const navigation = [
       {
         label: "Audition libre",
         href: "/stades-de-la-procedure-penale",
-        hash: "#audition",
+        hash: "#audition-libre",
       },
       {
         label: "Garde à vue",
@@ -44,12 +44,12 @@ const navigation = [
       {
         label: "Composition pénale",
         href: "/stades-de-la-procedure-penale",
-        hash: "#composition",
+        hash: "#composition-penale",
       },
       {
         label: "Comparution sur reconnaissance préalable de culpabilité",
         href: "/stades-de-la-procedure-penale",
-        hash: "#comparution",
+        hash: "#comparution-culpabilite",
       },
       {
         label: "Comparution immédiate",
@@ -64,7 +64,7 @@ const navigation = [
       {
         label: "Placement sous contrôle judiciaire ou en détention provisoire",
         href: "/stades-de-la-procedure-penale",
-        hash: "#placement",
+        hash: "#placement-controle",
       },
       {
         label:
@@ -80,12 +80,12 @@ const navigation = [
       {
         label: "Contentieux pénitentiaire",
         href: "/stades-de-la-procedure-penale",
-        hash: "#contentieux",
+        hash: "#contentieux-penitentiaire",
       },
       {
         label: "Aménagement de peine",
         href: "/stades-de-la-procedure-penale",
-        hash: "#amenagement",
+        hash: "#amenagement-peine",
       },
     ],
   },
