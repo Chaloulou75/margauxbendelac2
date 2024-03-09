@@ -13,7 +13,10 @@ import { PhoneIcon } from "@heroicons/vue/24/outline";
     <div
       class="flex items-center justify-center p-4 rounded-full bg-gray-900/90 group-hover:bg-gray-900"
     >
-      <a href="tel:+33762352298"><PhoneIcon class="w-6 h-6 text-white" /></a>
+      <a href="tel:+33762352298"
+        ><span class="sr-only">Urgence pénale</span
+        ><PhoneIcon class="w-6 h-6 text-white"
+      /></a>
     </div>
   </div>
 </template>
