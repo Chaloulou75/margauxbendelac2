@@ -14,9 +14,11 @@
         efficace dans les moments cruciaux de votre affaire. Les situations
         d'urgence pénale exigent une action immédiate et une expertise
         approfondie pour protéger vos droits et vos libertés. Voici un aperçu
-        des diverses procédures pénales dans lequel le cabinet intervient:
+        des diverses procédures pénales dans lequel le cabinet intervient:<span
+          id="audition"
+        ></span>
       </p>
-      <section id="audition" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Audition libre:
         </h2>
@@ -27,10 +29,10 @@
           libre de vos mouvements et pouvait quitter les locaux à tout moment.
           Le cabinet vous conseillera en amont et vous assistera lors de votre
           audition. Contrairement à la garde à vue, l'audition libre n'implique
-          pas de privation de liberté.
+          pas de privation de liberté.<span id="garde-a-vue"></span>
         </p>
       </section>
-      <section id="garde-a-vue" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Garde à vue:
         </h2>
@@ -39,11 +41,13 @@
           garde à vue. Dans n’importe lequel des cas, le cabinet intervient
           rapidement pour garantir le respect de vos droits, vous assistera lors
           des auditions et ou confrontations, et faire valoir toutes les
-          garanties procédurales prévues par la loi.
+          garanties procédurales prévues par la loi.<span
+            id="composition"
+          ></span>
         </p>
       </section>
 
-      <section id="composition" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Composition pénale:
         </h2>
@@ -54,8 +58,9 @@
           attentivement les implications juridiques et ses conséquences. Le
           cabinet vous conseillera sur la meilleure stratégie à adopter.
         </p>
+        <span id="comparution"></span>
       </section>
-      <section id="comparution" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Comparution sur reconnaissance préalable de culpabilité:
         </h2>
@@ -63,10 +68,10 @@
           Le cabinet vous assiste lors de la phase de comparution devant le
           parquet en négociant la peine proposée, et durant la phase
           d’homologation de la proposition du parquet devant le juge
-          homologateur.
+          homologateur.<span id="comparution-immediate"></span>
         </p>
       </section>
-      <section id="comparution-immediate" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Comparution immédiate:
         </h2>
@@ -77,9 +82,10 @@
           préparer une défense efficace dans un temps court pour faire valoir
           vos droits et vos intérêts ou s’assurer que vous puissiez bénéficier
           d’un délai pour préparer votre défense.
+          <span id="mise-en-examen"></span>
         </p>
       </section>
-      <section id="mise-en-examen" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Mise en examen et instruction:
         </h2>
@@ -90,10 +96,10 @@
           contrôle judiciaire, demande de modification du contrôle judiciaire),
           en veillant à ce que vos droits soient respectés et en formulant des
           demandes d’actes durant l’information pour recueillir les preuves
-          nécessaires à votre défense.
+          nécessaires à votre défense. <span id="placement"></span>
         </p>
       </section>
-      <section id="placement" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Placement sous contrôle judiciaire ou en détention provisoire:
         </h2>
@@ -101,10 +107,11 @@
           Le cabinet vous accompagne lors du débat devant le juge des libertés
           et de la détention s’agissant de votre placement sous contrôle
           judiciaire ou de votre placement en détention provisoire.
+          <span id="audience-correctionnel"></span>
         </p>
       </section>
 
-      <section id="audience-correctionnel" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Audience devant le tribunal correctionnel ou devant la cour d’appel:
         </h2>
@@ -114,10 +121,11 @@
           remise préalablement, le cabinet plaidera votre affaire avec
           pugnacité, rigueur, et efficacité, pour défendre vos intérêts et
           obtenir la meilleure issue possible.
+          <span id="audience-assises"></span>
         </p>
       </section>
 
-      <section id="audience-assises" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Audience devant la cour d’assises:
         </h2>
@@ -125,11 +133,11 @@
           En cas de renvoi devant la cour d'assises, le cabinet assure une
           défense robuste et stratégique, en mobilisant toutes les ressources
           nécessaires pour garantir un procès équitable et protéger vos droits
-          fondamentaux.
+          fondamentaux. <span id="contentieux"></span>
         </p>
       </section>
 
-      <section id="contentieux" class="space-y-4">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Contentieux pénitentiaire:
         </h2>
@@ -139,11 +147,11 @@
           êtes poursuivi pour avoir commis une faute disciplinaire de 1 er , 2
           nd ou 3 ème degré. Le cabinet vous assistera si vous faites l’objet
           d’une sanction disciplinaire (placement en quartier disciplinaire,
-          sanction de confinement ou autre).
+          sanction de confinement ou autre). <span id="amenagement"></span>
         </p>
       </section>
 
-      <section class="space-y-4" id="amenagement">
+      <section class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Aménagement de peine:
         </h2>

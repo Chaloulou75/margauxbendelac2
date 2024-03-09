@@ -5,7 +5,7 @@
     <AppNavigation />
     <NuxtPage />
     <LazyAppFooter />
-    <Phone />
+    <LazyPhone />
   </div>
 </template>
 

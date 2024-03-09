@@ -97,7 +97,7 @@ const navigation = [
 
 <template>
   <header
-    class="flex flex-wrap py-3 text-sm sm:justify-start sm:flex-nowrap sm:py-0 bg-white text-black w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+    class="flex flex-wrap py-3 text-sm sm:justify-start sm:flex-nowrap sm:py-0 bg-white text-black w-full z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none sticky top-0"
   >
     <nav
       class="relative w-full max-w-full px-4 mx-auto sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
