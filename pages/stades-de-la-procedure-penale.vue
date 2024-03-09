@@ -8,10 +8,7 @@
       Stades de la procédure pénale
     </h1>
     <div class="my-4 space-y-12 md:px-6">
-      <p
-        id="audition"
-        class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-      >
+      <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
         En tant qu'avocate exerçant en droit pénal sur l’ensemble du territoire
         français, le cabinet se consacre à assurer une défense rigoureuse et
         efficace dans les moments cruciaux de votre affaire. Les situations
@@ -19,14 +16,11 @@
         approfondie pour protéger vos droits et vos libertés. Voici un aperçu
         des diverses procédures pénales dans lequel le cabinet intervient:
       </p>
-      <section class="space-y-4">
+      <section id="audition" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Audition libre:
         </h2>
-        <p
-          id="gav"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Il s’agit d’une procédure utilisée dans le cadre des enquêtes pénales.
           Vous serez convoqué pour être entendue dans le cadre d'une enquête,
           sans être placée en garde à vue. Pendant cette audition, vous serez
@@ -36,14 +30,11 @@
           pas de privation de liberté.
         </p>
       </section>
-      <section class="space-y-4">
+      <section id="garde-a-vue" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Garde à vue:
         </h2>
-        <p
-          id="composition"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Vous pouvez recevoir une convocation ou être interpellé et placé en
           garde à vue. Dans n’importe lequel des cas, le cabinet intervient
           rapidement pour garantir le respect de vos droits, vous assistera lors
@@ -52,14 +43,11 @@
         </p>
       </section>
 
-      <section class="space-y-4">
+      <section id="composition" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Composition pénale:
         </h2>
-        <p
-          id="comparution"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Cette procédure est une alternative aux poursuites judiciaires, vous
           serez donc renvoyé devant le Délégué du Procureur de la République. En
           cas de proposition de composition pénale, le cabinet analysera
@@ -67,28 +55,22 @@
           cabinet vous conseillera sur la meilleure stratégie à adopter.
         </p>
       </section>
-      <section class="space-y-4">
+      <section id="comparution" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Comparution sur reconnaissance préalable de culpabilité:
         </h2>
-        <p
-          id="comparution-immediate"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Le cabinet vous assiste lors de la phase de comparution devant le
           parquet en négociant la peine proposée, et durant la phase
           d’homologation de la proposition du parquet devant le juge
           homologateur.
         </p>
       </section>
-      <section class="space-y-4">
+      <section id="comparution-immediate" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Comparution immédiate:
         </h2>
-        <p
-          id="mise-en-examen"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           A l’issu de votre garde à vue, le parquet peut solliciter votre
           déferrement en comparution immédiate devant le tribunal correctionnel.
           Dans le cadre d'une comparution immédiate, le cabinet s’assure de
@@ -97,14 +79,11 @@
           d’un délai pour préparer votre défense.
         </p>
       </section>
-      <section class="space-y-4">
+      <section id="mise-en-examen" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Mise en examen et instruction:
         </h2>
-        <p
-          id="placement"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Le cabinet vous accompagne à chaque étape de l'instruction
           (interrogatoire de première comparution, audition, confrontation,
           reconstitution, demande de mise en liberté, demande de placement sous
@@ -114,28 +93,22 @@
           nécessaires à votre défense.
         </p>
       </section>
-      <section class="space-y-4">
+      <section id="placement" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Placement sous contrôle judiciaire ou en détention provisoire:
         </h2>
-        <p
-          id="audience-correctionnel"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Le cabinet vous accompagne lors du débat devant le juge des libertés
           et de la détention s’agissant de votre placement sous contrôle
           judiciaire ou de votre placement en détention provisoire.
         </p>
       </section>
 
-      <section class="space-y-4">
+      <section id="audience-correctionnel" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Audience devant le tribunal correctionnel ou devant la cour d’appel:
         </h2>
-        <p
-          id="audience-assises"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Lors des audiences devant le tribunal correctionnel ou devant la cour
           d’appel, que vous y soyez convoqué par une citation ou une convocation
           remise préalablement, le cabinet plaidera votre affaire avec
@@ -144,14 +117,11 @@
         </p>
       </section>
 
-      <section class="space-y-4">
+      <section id="audience-assises" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Audience devant la cour d’assises:
         </h2>
-        <p
-          id="contentieux"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           En cas de renvoi devant la cour d'assises, le cabinet assure une
           défense robuste et stratégique, en mobilisant toutes les ressources
           nécessaires pour garantir un procès équitable et protéger vos droits
@@ -159,14 +129,11 @@
         </p>
       </section>
 
-      <section class="space-y-4">
+      <section id="contentieux" class="space-y-4">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Contentieux pénitentiaire:
         </h2>
-        <p
-          id="amenagement"
-          class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5"
-        >
+        <p class="mb-3 text-xl text-justify text-black md:text-2xl md:mb-5">
           Que vous soyez en détention provisoire ou que vous exécutiez une peine
           de courte ou à une longue peine le cabinet vous accompagne si vous
           êtes poursuivi pour avoir commis une faute disciplinaire de 1 er , 2
@@ -176,7 +143,7 @@
         </p>
       </section>
 
-      <section class="space-y-4">
+      <section class="space-y-4" id="amenagement">
         <h2 class="text-xl font-semibold text-black md:text-2xl">
           Aménagement de peine:
         </h2>

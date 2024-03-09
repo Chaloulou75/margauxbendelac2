@@ -39,7 +39,7 @@ const navigation = [
       {
         label: "Garde à vue",
         href: "/stades-de-la-procedure-penale",
-        hash: "#gav",
+        hash: "#garde-a-vue",
       },
       {
         label: "Composition pénale",
