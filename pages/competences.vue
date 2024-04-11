@@ -51,11 +51,6 @@
             des femmes victimes de violences (physiques, psychologiques,
             économiques,…).
           </p>
-          <p class="mb-3 text-xl text-justify text-black md:text-2xl">
-            Maître Margaux Bendelac dispose d’une pratique régulière et
-            approfondie en matière de droit disciplinaire (élèves, étudiants,
-            fonctionnaires) et intervient devant les conseils de discipline.
-          </p>
           <h3 class="justify-center mb-4 text-xl font-semibold text-black">
             Atteintes aux biens
           </h3>
