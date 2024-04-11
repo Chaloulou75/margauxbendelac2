@@ -34,8 +34,21 @@
             en cause (majeures et mineures).
           </p>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl">
-            Maître Margaux Bendelac a, en outre, développé une expertise dans la
-            défense des femmes victimes de violences (physiques, psychologiques,
+            Le cabinet vous accompagne, que vous soyez victime ou mis en cause,
+            dans des dossiers qui concerne notamment les infractions suivantes
+            (<span class="italic">liste non exhaustive</span>) : agression
+            sexuelle, assassinat, atteinte à la vie privée, chantage, coups et
+            blessures, enlèvement, harcèlement moral, harcèlement sexuel,
+            homicide volontaire ou involontaire, meurtre, menaces de mort,
+            provocation à la commission d’une infraction (discrimination, haine,
+            violence), <span class="italic">revenge porn</span>, rébellion,
+            séquestration, troubles à l’ordre public (apologie du terrorisme,…),
+            usurpation d’identité, viol, violences, violences conjugales
+            (physiques, économiques, psychologiques).
+          </p>
+          <p class="mb-3 text-xl text-justify text-black md:text-2xl">
+            Maître Margaux Bendelac a développé une expertise dans la défense
+            des femmes victimes de violences (physiques, psychologiques,
             économiques,…).
           </p>
           <p class="mb-3 text-xl text-justify text-black md:text-2xl">
