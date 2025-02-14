@@ -6,6 +6,7 @@ export default defineNuxtConfig({
       crawlLinks: true,
     },
   },
+
   app: {
     head: {
       charset: "utf-8",
@@ -46,16 +47,20 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
+
   build: {
     transpile: ["@headlessui/vue"],
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   css: ["~/assets/css/tailwind.css"],
+
   modules: [
     "@nuxtjs/google-fonts",
     "@nuxt/image",
@@ -64,7 +69,9 @@ export default defineNuxtConfig({
     "@vite-pwa/nuxt",
     "nuxt-gtag",
   ],
+
   plugins: ["~/plugins/preline.client.ts"],
+
   site: {
     url: "https://www.bendelac-avocat.com",
     name: "Margaux Bendelac | Avocate à la Cour",
@@ -72,9 +79,11 @@ export default defineNuxtConfig({
       "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires. Urgence pénale. Avocat pénaliste Paris",
     defaultLocale: "fr",
   },
+
   gtag: {
     id: "G-JF1NEH7R9K",
   },
+
   googleFonts: {
     download: true,
     preconnect: true,
@@ -84,4 +93,6 @@ export default defineNuxtConfig({
     },
     display: "swap",
   },
+
+  compatibilityDate: "2024-09-29",
 });

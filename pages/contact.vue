@@ -31,8 +31,8 @@ import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
           <div class="hidden md:basis-1/2 md:block">
             <p class="text-xl font-medium text-black md:text-2xl">
               <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
-              <a href="mailto:margaux.bendelac-avocat@outlook.fr"
-                >margaux.bendelac-avocat@outlook.fr</a
+              <a href="mailto:secretariat@bendelac-avocat.com"
+                >secretariat@bendelac-avocat.com</a
               >
             </p>
             <p class="text-xl font-medium text-black md:text-2xl">
@@ -49,8 +49,8 @@ import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
             </p>
             <p class="text-xl font-medium text-black md:text-2xl md:hidden">
               <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
-              <a href="mailto:margaux.bendelac-avocat@outlook.fr"
-                >margaux.bendelac-avocat@outlook.fr</a
+              <a href="mailto:secretariat@bendelac-avocat.com"
+                >secretariat@bendelac-avocat.com</a
               >
             </p>
             <p class="text-xl font-medium text-black md:text-2xl md:hidden">

@@ -32,7 +32,7 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
           </p>
           <p class="text-xl font-medium text-black md:text-2xl">
             <span class="inline-block w-4 h-4"><AtSymbolIcon /></span>
-            mb-avocat@outlook.fr
+            secretariat@bendelac-avocat.com
           </p>
           <p class="text-xl font-medium text-black md:text-2xl">
             <span class="inline-block w-4 h-4"><PhoneIcon /></span> +33 7 62 35
