@@ -107,6 +107,36 @@ https://www.mediapart.fr/journal/france/271022/harcelement-radies-de-l-universit
                     </p>
                 </div>
             </div>
+            <div
+                class="flex flex-col items-start py-2 transition duration-100 md:shadow-lg md:px-6 md:py-4"
+            >
+                <h2
+                    class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
+                >
+                    Le Parisien
+                </h2>
+                <h3
+                    class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
+                >
+                    L’ancien président du centre social de Noisy-le-Sec condamné
+                    pour l’agression de deux adjoints
+                </h3>
+                <a
+                    href="https://www.leparisien.fr/seine-saint-denis-93/noisy-le-sec-lancien-president-du-centre-social-condamne-pour-lagression-de-deux-adjoints-10-09-2025-FD6BZFRFSNCOVHNES5IMLTVPRI.php"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="mb-4 text-xl text-black md:text-2xl hover:underline"
+                >
+                    www.leparisien.fr
+                </a>
+                <p class="mb-3 text-xl text-black md:text-2xl md:mb-5">
+                    Ibrahim D., 40 ans, a été déclaré coupable de violences
+                    aggravées et sanctionné par cinq mois de prison avec sursis
+                    et de lourdes amendes, mardi. Il s’en était pris
+                    physiquement à deux adjoints de la ville de
+                    Seine-Saint-Denis en 2022 et 2023.
+                </p>
+            </div>
         </div>
     </div>
 </template>
