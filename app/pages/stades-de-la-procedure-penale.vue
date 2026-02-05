@@ -1,3 +1,17 @@
+<script setup>
+useSeoMeta({
+  title: "Les Stades de la Procédure Pénale",
+  description:
+    "Découvrez les différents stades de la procédure pénale : audition libre, garde à vue, comparution immédiate, instruction, cour d'assises. Cabinet Margaux Bendelac, Paris.",
+  ogTitle: "Les Stades de la Procédure Pénale",
+  ogDescription:
+    "Les différents stades de la procédure pénale expliqués par Maître Margaux Bendelac, avocate pénaliste à Paris.",
+  ogUrl: "https://www.bendelac-avocat.com/stades-de-la-procedure-penale",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-center w-full h-full max-w-full px-2 py-8 mx-auto md:px-8"

@@ -1,3 +1,17 @@
+<script setup>
+useSeoMeta({
+  title: "Politique de Confidentialité",
+  description:
+    "Politique de confidentialité et de protection des données personnelles du site du cabinet de Maître Margaux Bendelac.",
+  ogTitle: "Politique de Confidentialité — Margaux Bendelac",
+  ogDescription:
+    "Politique de confidentialité et de protection des données personnelles du cabinet Margaux Bendelac.",
+  ogUrl: "https://www.bendelac-avocat.com/politiquedeconfidentialite",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-start w-full h-auto max-w-full px-2 py-8 mx-auto mb-auto md:px-8 md:items-start"

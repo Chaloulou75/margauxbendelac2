@@ -1,7 +1,21 @@
+<script setup>
+useSeoMeta({
+  title: "Revue de Presse — Margaux Bendelac",
+  description:
+    "Revue de presse de Maître Margaux Bendelac, avocate pénaliste à Paris. Interventions dans les médias : Public Sénat, Mediapart, France Info, Le Parisien, France Bleu.",
+  ogTitle: "Revue de Presse — Margaux Bendelac",
+  ogDescription:
+    "Revue de presse de Maître Margaux Bendelac, avocate pénaliste à Paris. Interventions dans les médias.",
+  ogUrl: "https://www.bendelac-avocat.com/presse",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
+</script>
+
 <template>
     <div
         class="flex flex-col items-center justify-start w-full h-auto max-w-full px-2 py-8 mx-auto mb-auto md:px-8 md:items-start">
-        <h1 class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left">
+        <h1 class="mb-4 text-3xl font-thin text-center text-black md:mb-8 md:text-left">
             Revue de Presse
         </h1>
 
@@ -108,6 +122,23 @@ https://www.mediapart.fr/journal/france/271022/harcelement-radies-de-l-universit
                     Au total, cinq agents administratifs de la préfecture de Seine-Saint-Denis ont été poursuivis pour
                     avoir consulté et transmis des informations ultra-confidentielles. Le principal suspect aurait
                     touché plusieurs milliers d’euros.
+                </p>
+            </div>
+            <div class="flex flex-col items-start py-2 transition duration-100 md:shadow-lg md:px-6 md:py-4">
+                <h2 class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl">
+                    France Bleu
+                </h2>
+                <h3 class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl">
+                    Vaste affaire de vols en Bourgogne : de huit mois à 5 ans de prison requis par le parquet à Auxerre
+                </h3>
+                <a href="https://www.francebleu.fr/bourgogne-franche-comte/yonne-89/vaste-affaire-de-vols-en-bourgogne-de-huit-mois-a-5-ans-de-prison-requis-par-le-parquet-a-auxerre-2945765"
+                    target="_blank" rel="noreferrer" class="mb-4 text-xl text-black md:text-2xl hover:underline">
+                    www.francebleu.fr
+                </a>
+                <p class="mb-3 text-xl text-black md:text-2xl md:mb-5">
+                    Ce mercredi 4 février, au second jour du procès de cette vaste
+                    affaire de vols de véhicules et de matériels en Bourgogne, le
+                    ministère a fait ses réquisitions.
                 </p>
             </div>
         </div>

@@ -5,12 +5,12 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
+    "./app/components/**/*.{js,vue,ts}",
+    "./app/layouts/**/*.vue",
+    "./app/pages/**/*.vue",
+    "./app/plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue",
+    "./app/app.vue",
     "./node_modules/preline/preline.js",
   ],
   theme: {
@@ -31,8 +31,8 @@ module.exports = {
         ebgaramond: ["EB Garamond"],
       },
       backgroundImage: {
-        "hero-colonnes": "url('assets/img/colonnes-min.jpg')",
-        "hero-palais": "url('assets/img/palais-min.jpg')",
+        "hero-colonnes": "url('~/assets/img/colonnes-min.jpg')",
+        "hero-palais": "url('~/assets/img/palais-min.jpg')",
       },
     },
   },

@@ -1,9 +1,23 @@
+<script setup>
+useSeoMeta({
+  title: "Compétences — Droit pénal, Droit des affaires",
+  description:
+    "Les domaines de compétences de Maître Margaux Bendelac : droit pénal général, droit pénal des affaires, droit international des affaires et procédure disciplinaire.",
+  ogTitle: "Compétences — Droit pénal, Droit des affaires",
+  ogDescription:
+    "Les domaines de compétences de Maître Margaux Bendelac : droit pénal général, droit pénal des affaires, droit international des affaires.",
+  ogUrl: "https://www.bendelac-avocat.com/competences",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-center w-full h-full max-w-full px-2 py-8 mx-auto md:px-8"
   >
     <h1
-      class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left"
+      class="mb-4 text-3xl font-thin text-center text-black md:mb-8 md:text-left"
     >
       Compétences
     </h1>

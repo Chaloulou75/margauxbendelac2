@@ -1,9 +1,23 @@
+<script setup>
+useSeoMeta({
+  title: "Le Cabinet — Margaux Bendelac, Avocate",
+  description:
+    "Découvrez le cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. Expertise en droit pénal, droit pénal des affaires et droit international.",
+  ogTitle: "Le Cabinet — Margaux Bendelac, Avocate",
+  ogDescription:
+    "Découvrez le cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. Expertise en droit pénal, droit pénal des affaires et droit international.",
+  ogUrl: "https://www.bendelac-avocat.com/cabinet",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-center w-full h-full max-w-full px-2 py-8 mx-auto md:px-8"
   >
     <h1
-      class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left"
+      class="mb-4 text-3xl font-thin text-center text-black md:mb-8 md:text-left"
     >
       Le cabinet
     </h1>

@@ -1,12 +1,24 @@
 <script setup>
 import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
+
+useSeoMeta({
+  title: "Contact — Cabinet Margaux Bendelac",
+  description:
+    "Contactez le cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. 99 rue de Courcelles, 75017 Paris. Urgence pénale disponible.",
+  ogTitle: "Contact — Cabinet Margaux Bendelac",
+  ogDescription:
+    "Contactez le cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. 99 rue de Courcelles, 75017 Paris.",
+  ogUrl: "https://www.bendelac-avocat.com/contact",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
 </script>
 <template>
     <div
         class="flex flex-col items-center justify-start w-full h-auto max-w-full px-2 py-8 mx-auto mb-auto md:px-8 md:items-start"
     >
         <h1
-            class="mb-4 text-3xl font-thin text-center text-black sr-only md:mb-8 md:text-left"
+            class="mb-4 text-3xl font-thin text-center text-black md:mb-8 md:text-left"
         >
             Contact
         </h1>

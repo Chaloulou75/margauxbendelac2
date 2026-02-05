@@ -1,4 +1,4 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     nitro: {
         compressPublicAssets: true,
@@ -21,6 +21,34 @@ export default defineNuxtConfig({
                 {
                     name: "google-site-verification",
                     content: "b61mVcI3EbJ5l66EfMJ1RQ24Dv4gfrJe301LXHMew2Y",
+                },
+            ],
+            script: [
+                {
+                    type: "application/ld+json",
+                    innerHTML: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Attorney",
+                        name: "Margaux Bendelac",
+                        description:
+                            "Avocate au Barreau de Paris, spécialisée en droit pénal général, droit pénal des affaires et droit international des affaires.",
+                        url: "https://www.bendelac-avocat.com",
+                        telephone: "+33762352298",
+                        address: {
+                            "@type": "PostalAddress",
+                            streetAddress: "99 rue de Courcelles",
+                            addressLocality: "Paris",
+                            postalCode: "75017",
+                            addressCountry: "FR",
+                        },
+                        areaServed: {
+                            "@type": "Country",
+                            name: "France",
+                        },
+                        priceRange: "$$",
+                        image: "https://www.bendelac-avocat.com/img/margaux.jpg",
+                        sameAs: [],
+                    }),
                 },
             ],
             link: [
@@ -70,8 +98,6 @@ export default defineNuxtConfig({
         "nuxt-gtag",
     ],
 
-    plugins: ["~/plugins/preline.client.ts"],
-
     site: {
         url: "https://www.bendelac-avocat.com",
         name: "Margaux Bendelac | Avocate à la Cour",
@@ -94,5 +120,5 @@ export default defineNuxtConfig({
         display: "swap",
     },
 
-    compatibilityDate: "2024-09-29",
+    compatibilityDate: "2025-07-01",
 });

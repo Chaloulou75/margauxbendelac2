@@ -5,6 +5,18 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 
 const modules = ref([Autoplay]);
+
+useSeoMeta({
+  title: "Margaux Bendelac — Avocate pénaliste à Paris",
+  description:
+    "Cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. Droit pénal général, droit pénal des affaires et droit international des affaires. Urgence pénale.",
+  ogTitle: "Margaux Bendelac — Avocate pénaliste à Paris",
+  ogDescription:
+    "Cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. Droit pénal général, droit pénal des affaires et droit international des affaires.",
+  ogUrl: "https://www.bendelac-avocat.com/",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
 </script>
 
 <template>

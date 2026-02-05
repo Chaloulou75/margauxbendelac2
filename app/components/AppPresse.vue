@@ -69,6 +69,34 @@ https://www.mediapart.fr/journal/france/271022/harcelement-radies-de-l-universit
           témoignages d’étudiants, deux enseignants de l ...
         </p>
       </div>
+      <div
+        class="flex flex-col items-start py-2 transition duration-100 md:shadow-lg md:px-6 md:py-4"
+      >
+        <h2
+          class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
+        >
+          France Bleu
+        </h2>
+        <h3
+          class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl"
+        >
+          Vaste affaire de vols en Bourgogne : de huit mois à 5 ans de prison
+          requis par le parquet à Auxerre
+        </h3>
+        <a
+          href="https://www.francebleu.fr/bourgogne-franche-comte/yonne-89/vaste-affaire-de-vols-en-bourgogne-de-huit-mois-a-5-ans-de-prison-requis-par-le-parquet-a-auxerre-2945765"
+          target="_blank"
+          rel="noreferrer"
+          class="mb-4 text-xl text-black md:text-2xl hover:underline"
+        >
+          www.francebleu.fr
+        </a>
+        <p class="mb-3 text-xl text-black md:text-2xl md:mb-5 indent-4">
+          Ce mercredi 4 février, au second jour du procès de cette vaste affaire
+          de vols de véhicules et de matériels en Bourgogne, le ministère a fait
+          ses réquisitions.
+        </p>
+      </div>
     </div>
   </div>
 </template>

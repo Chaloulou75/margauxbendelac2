@@ -1,3 +1,17 @@
+<script setup>
+useSeoMeta({
+  title: "Mentions Légales",
+  description:
+    "Mentions légales du site du cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris.",
+  ogTitle: "Mentions Légales — Margaux Bendelac",
+  ogDescription:
+    "Mentions légales du site du cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris.",
+  ogUrl: "https://www.bendelac-avocat.com/mentionslegales",
+  ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
+  twitterCard: "summary",
+});
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-start w-full h-auto max-w-full px-2 py-8 mx-auto mb-auto md:px-8 md:items-start"
