@@ -17,6 +17,16 @@ import {
 
 const sheetOpen = ref(false);
 const route = useRoute();
+const openMobileDropdown = ref(null);
+
+function toggleMobileDropdown(index) {
+  openMobileDropdown.value =
+    openMobileDropdown.value === index ? null : index;
+}
+
+watch(sheetOpen, (open) => {
+  if (!open) openMobileDropdown.value = null;
+});
 
 const navigation = [
   { label: "Cabinet", href: "/cabinet" },
@@ -214,25 +224,52 @@ const navigation = [
                 </NuxtLink>
 
                 <div v-else>
-                  <span
+                  <button
+                    type="button"
                     :class="[
-                      'block px-3 py-2 text-xl font-medium rounded-md shrink-0',
+                      'flex items-center justify-between w-full px-3 py-2 text-xl font-medium rounded-md shrink-0 text-left hover:shadow-sm transition-shadow',
                       { 'shadow-sm': route.path === item.href },
                     ]"
+                    @click="toggleMobileDropdown(index)"
                   >
                     {{ item.label }}
-                  </span>
-                  <div class="ml-4 mt-1 flex flex-col gap-y-1">
-                    <NuxtLink
-                      v-for="(subItem, idx) in item.subItems"
-                      :key="idx"
-                      :to="{ path: subItem.href, hash: subItem.hash }"
-                      class="flex items-center py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100"
-                      @click="sheetOpen = false"
+                    <svg
+                      class="size-5 transition-transform duration-200"
+                      :class="{ 'rotate-180': openMobileDropdown === index }"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
                     >
-                      {{ subItem.label }}
-                    </NuxtLink>
-                  </div>
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                  <Transition
+                    enter-active-class="transition-all duration-200 ease-out"
+                    enter-from-class="opacity-0 max-h-0"
+                    enter-to-class="opacity-100 max-h-[500px]"
+                    leave-active-class="transition-all duration-150 ease-in"
+                    leave-from-class="opacity-100 max-h-[500px]"
+                    leave-to-class="opacity-0 max-h-0"
+                  >
+                    <div
+                      v-show="openMobileDropdown === index"
+                      class="ml-4 mt-1 flex flex-col gap-y-1 overflow-hidden"
+                    >
+                      <NuxtLink
+                        v-for="(subItem, idx) in item.subItems"
+                        :key="idx"
+                        :to="{ path: subItem.href, hash: subItem.hash }"
+                        class="flex items-center py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100"
+                        @click="sheetOpen = false"
+                      >
+                        {{ subItem.label }}
+                      </NuxtLink>
+                    </div>
+                  </Transition>
                 </div>
               </template>
             </div>
