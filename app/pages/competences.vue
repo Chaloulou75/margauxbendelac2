@@ -85,7 +85,7 @@ useSeoMeta({
           src="~/assets/img/palais-min.jpg"
           alt="palais de justice"
           loading="lazy"
-          class="block w-full h-auto max-w-2xl mx-auto my-2 shadow md:hidden"
+          class="block w-full h-auto max-w-2xl mx-auto my-2 shadow-sm md:hidden"
         />
 
         <section id="affaires" class="flex flex-col items-start py-2">

@@ -23,7 +23,7 @@
             <input
               type="text"
               name="fullname"
-              class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              class="block w-full mt-1 border-gray-300 rounded-md shadow-xs focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200/50"
               placeholder=""
             />
           </label>
@@ -32,7 +32,7 @@
             <input
               type="email"
               name="email"
-              class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              class="block w-full mt-1 border-gray-300 rounded-md shadow-xs focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200/50"
               placeholder=""
             />
           </label>
@@ -41,7 +41,7 @@
             <input
               type="tel"
               name="telephone"
-              class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              class="block w-full mt-1 border-gray-300 rounded-md shadow-xs focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200/50"
               placeholder=""
             />
           </label>
@@ -49,13 +49,13 @@
             <span class="text-black">Votre message</span>
             <textarea
               name="message"
-              class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              class="block w-full mt-1 border-gray-300 rounded-md shadow-xs focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200/50"
               rows="4"
             ></textarea>
           </label>
           <button
             type="submit"
-            class="px-4 py-2 text-black transition duration-75 bg-white border border-gray-300 rounded-md hover:bg-black hover:text-white focus:ring"
+            class="px-4 py-2 text-black transition duration-75 bg-white border border-gray-300 rounded-md hover:bg-black hover:text-white focus:ring-3"
           >
             Envoyer
           </button>

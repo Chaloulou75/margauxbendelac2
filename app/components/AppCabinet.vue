@@ -15,7 +15,7 @@
             src="~/assets/img/margaux.jpg"
             alt="Maître Margaux Bendelac"
             loading="lazy"
-            class="w-full md:w-[50vh] lg:w-[400px] h-auto mx-auto shadow"
+            class="w-full md:w-[50vh] lg:w-96 h-auto mx-auto shadow-sm"
           />
         </div>
         <p
@@ -73,7 +73,7 @@
           src="~/assets/img/margaux.jpg"
           alt="Maître Margaux Bendelac"
           loading="lazy"
-          class="w-full md:w-[50vh] lg:w-[400px] h-auto mx-auto shadow"
+          class="w-full md:w-[50vh] lg:w-96 h-auto mx-auto shadow-sm"
         />
       </div>
     </section>

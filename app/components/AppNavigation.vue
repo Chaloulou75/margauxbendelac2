@@ -1,4 +1,23 @@
 <script setup>
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from "~/components/ui/navigation-menu";
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "~/components/ui/sheet";
+
+const sheetOpen = ref(false);
+const route = useRoute();
+
 const navigation = [
   { label: "Cabinet", href: "/cabinet" },
   {
@@ -62,18 +81,19 @@ const navigation = [
         hash: "#mise-en-examen",
       },
       {
-        label: "Placement sous contrôle judiciaire ou en détention provisoire",
+        label:
+          "Placement sous contrôle judiciaire ou en détention provisoire",
         href: "/stades-de-la-procedure-penale",
         hash: "#placement-controle",
       },
       {
         label:
-          "Audience devant le tribunal correctionnel ou devant la cour d’appel",
+          "Audience devant le tribunal correctionnel ou devant la cour d'appel",
         href: "/stades-de-la-procedure-penale",
         hash: "#audience-correctionnel",
       },
       {
-        label: "Audience devant la cour d’assises",
+        label: "Audience devant la cour d'assises",
         href: "/stades-de-la-procedure-penale",
         hash: "#audience-assises",
       },
@@ -97,113 +117,127 @@ const navigation = [
 
 <template>
   <header
-    class="flex flex-wrap py-3 text-sm sm:justify-start sm:flex-nowrap sm:py-0 bg-white text-black w-full z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none sticky top-0"
+    class="flex flex-wrap py-3 text-sm sm:justify-start sm:flex-nowrap sm:py-0 bg-white/80 text-black w-full z-50 backdrop-blur-[12px] border-none sticky top-0"
   >
     <nav
-      class="relative w-full max-w-full px-4 mx-auto sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+      class="relative w-full max-w-full px-4 mx-auto flex items-center justify-between sm:px-6 lg:px-8"
       aria-label="Global"
     >
-      <div class="flex items-center justify-between">
-        <NuxtLink
-          to="/"
-          class="flex flex-col items-center flex-none text-2xl font-medium text-black hover:text-gray-800 shrink-0"
-        >
-          <span>Margaux Bendelac</span>
-          <span class="text-base">Avocate au Barreau de Paris</span>
-        </NuxtLink>
-        <div class="sm:hidden">
-          <button
-            type="button"
-            class="flex items-center justify-center text-sm font-semibold text-gray-800 border border-gray-200 rounded-lg hs-collapse-toggle size-9 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
-            data-hs-collapse="#navbar-collapse-with-animation"
-            aria-controls="navbar-collapse-with-animation"
-            aria-label="Toggle navigation"
-          >
-            <svg
-              class="hs-collapse-open:hidden size-4"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-            <svg
-              class="flex-shrink-0 hidden hs-collapse-open:block size-4"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div
-        id="navbar-collapse-with-animation"
-        class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:block"
+      <!-- Logo -->
+      <NuxtLink
+        to="/"
+        class="flex flex-col items-center flex-none text-2xl font-medium text-black hover:text-gray-800 shrink-0"
       >
-        <div
-          class="flex flex-col mt-5 gap-y-4 gap-x-0 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7"
-        >
-          <template v-for="(item, index) in navigation">
-            <NuxtLink
-              v-if="!item.subItems"
-              :key="index"
-              :to="item.href"
-              :exact-active-class="'shadow'"
-              class="px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow shrink-0"
-              >{{ item.label }}
-            </NuxtLink>
+        <span>Margaux Bendelac</span>
+        <span class="text-base">Avocate au Barreau de Paris</span>
+      </NuxtLink>
 
-            <div
-              v-else
-              class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4"
-            >
-              <button
-                type="button"
-                :class="{ shadow: $route.path === item.href }"
-                class="flex items-center w-full px-3 py-2 text-xl font-medium rounded-md active:shadow hover:shadow shrink-0"
+      <!-- Desktop navigation -->
+      <NavigationMenu class="hidden sm:flex" :delay-duration="100">
+        <NavigationMenuList>
+          <template v-for="(item, index) in navigation" :key="index">
+            <!-- Simple link (no subItems) -->
+            <NavigationMenuItem v-if="!item.subItems">
+              <NuxtLink
+                :to="item.href"
+                :class="[
+                  navigationMenuTriggerStyle(),
+                  { 'shadow-sm': route.path === item.href },
+                ]"
               >
                 {{ item.label }}
-                <svg
-                  class="ms-2 size-2.5 text-gray-600"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                  ></path>
-                </svg>
-              </button>
+              </NuxtLink>
+            </NavigationMenuItem>
 
-              <div
-                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-auto hidden z-10 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:start-0 before:w-full before:h-5"
+            <!-- Dropdown link (with subItems) -->
+            <NavigationMenuItem v-else>
+              <NavigationMenuTrigger
+                :class="{ 'shadow-sm': route.path === item.href }"
               >
-                <NuxtLink
-                  v-for="(subItem, idx) in item.subItems"
-                  :key="idx"
-                  :to="{ path: subItem.href, hash: subItem.hash }"
-                  class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
-                >
-                  {{ subItem.label }}
-                </NuxtLink>
-              </div>
-            </div>
+                {{ item.label }}
+              </NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <ul class="flex flex-col w-max">
+                  <li v-for="(subItem, idx) in item.subItems" :key="idx">
+                    <NavigationMenuLink as-child>
+                      <NuxtLink
+                        :to="{ path: subItem.href, hash: subItem.hash }"
+                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      >
+                        {{ subItem.label }}
+                      </NuxtLink>
+                    </NavigationMenuLink>
+                  </li>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
           </template>
-        </div>
+        </NavigationMenuList>
+      </NavigationMenu>
+
+      <!-- Mobile hamburger -->
+      <div class="sm:hidden">
+        <Sheet v-model:open="sheetOpen">
+          <SheetTrigger as-child>
+            <button
+              type="button"
+              class="flex items-center justify-center text-sm font-semibold text-gray-800 border border-gray-200 rounded-lg size-9 hover:bg-gray-100"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                width="16"
+                height="16"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+          </SheetTrigger>
+          <SheetContent side="right" class="overflow-y-auto">
+            <SheetTitle class="sr-only">Menu de navigation</SheetTitle>
+            <div class="flex flex-col gap-y-4 mt-6">
+              <template v-for="(item, index) in navigation" :key="index">
+                <NuxtLink
+                  v-if="!item.subItems"
+                  :to="item.href"
+                  :class="[
+                    'px-3 py-2 text-xl font-medium rounded-md hover:shadow-sm shrink-0',
+                    { 'shadow-sm': route.path === item.href },
+                  ]"
+                  @click="sheetOpen = false"
+                >
+                  {{ item.label }}
+                </NuxtLink>
+
+                <div v-else>
+                  <span
+                    :class="[
+                      'block px-3 py-2 text-xl font-medium rounded-md shrink-0',
+                      { 'shadow-sm': route.path === item.href },
+                    ]"
+                  >
+                    {{ item.label }}
+                  </span>
+                  <div class="ml-4 mt-1 flex flex-col gap-y-1">
+                    <NuxtLink
+                      v-for="(subItem, idx) in item.subItems"
+                      :key="idx"
+                      :to="{ path: subItem.href, hash: subItem.hash }"
+                      class="flex items-center py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100"
+                      @click="sheetOpen = false"
+                    >
+                      {{ subItem.label }}
+                    </NuxtLink>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </SheetContent>
+        </Sheet>
       </div>
     </nav>
   </header>

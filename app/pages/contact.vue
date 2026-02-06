@@ -33,7 +33,7 @@ useSeoMeta({
                     >
                         Nous trouver
                     </h3>
-                    <div class="w-full mx-auto my-4 aspect-w-16 aspect-h-9">
+                    <div class="w-full mx-auto my-4 aspect-video">
                         <LazyGoogleMap />
                     </div>
                 </div>

@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
     nitro: {
         compressPublicAssets: true,
@@ -80,11 +82,8 @@ export default defineNuxtConfig({
         transpile: ["@headlessui/vue"],
     },
 
-    postcss: {
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {},
-        },
+    vite: {
+        plugins: [tailwindcss()],
     },
 
     css: ["~/assets/css/tailwind.css"],
@@ -96,7 +95,13 @@ export default defineNuxtConfig({
         "@nuxtjs/seo",
         "@vite-pwa/nuxt",
         "nuxt-gtag",
+        "shadcn-nuxt",
     ],
+
+    shadcn: {
+        prefix: "",
+        componentDir: "./app/components/ui",
+    },
 
     site: {
         url: "https://www.bendelac-avocat.com",

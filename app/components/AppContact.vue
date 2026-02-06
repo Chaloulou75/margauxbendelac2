@@ -19,7 +19,7 @@ import { AtSymbolIcon, PhoneIcon, MapPinIcon } from "@heroicons/vue/24/outline";
           >
             Nous trouver
           </h2>
-          <div class="w-full mx-auto my-4 aspect-w-16 aspect-h-9">
+          <div class="w-full mx-auto my-4 aspect-[4/3]">
             <LazyGoogleMap />
           </div>
         </div>

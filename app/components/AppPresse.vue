@@ -22,7 +22,7 @@
         >
           Avocates: défend-on différemment quand on est une femme
         </h3>
-        <div class="w-full mx-auto mb-4 aspect-w-16 aspect-h-9">
+        <div class="w-full mx-auto mb-4 aspect-video">
           <LazyVideoPublicSenat />
         </div>
         <a
