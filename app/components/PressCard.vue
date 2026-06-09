@@ -11,7 +11,7 @@ const displayUrl = computed(() => new URL(props.url).hostname)
 </script>
 
 <template>
-    <div class="break-inside-avoid flex flex-col items-start py-4 px-4 md:px-6 mb-8 border-b border-gray-200">
+    <div class="break-inside-avoid flex flex-col items-start py-4 px-4 md:px-6 mb-8 border border-gray-200 shadow-sm rounded-sm bg-gray-50">
         <h2 class="justify-center mb-4 text-2xl font-semibold text-black md:text-3xl">
             {{ media }}
         </h2>
