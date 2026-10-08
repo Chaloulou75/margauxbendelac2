@@ -123,7 +123,7 @@ const navigation = [
                     <NavigationMenuLink as-child>
                       <NuxtLink
                         :to="{ path: subItem.href, hash: subItem.hash }"
-                        class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                        class="flex items-start text-left gap-x-3.5 py-2 px-3 rounded-lg text-base text-black hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                       >
                         {{ subItem.label }}
                       </NuxtLink>
