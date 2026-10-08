@@ -2,6 +2,10 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
+    routeRules: {
+        "/merci": { robots: false },
+    },
+
     nitro: {
         compressPublicAssets: true,
         prerender: {
@@ -14,11 +18,13 @@ export default defineNuxtConfig({
             charset: "utf-8",
             viewport: "width=device-width, initial-scale=1",
             title: "Margaux Bendelac | Avocate à la Cour",
+            // Les titles de chaque page sont complets : pas de suffixe automatique.
+            titleTemplate: "%s",
             meta: [
                 {
                     name: "description",
                     content:
-                        "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires. Urgence pénale. Avocat pénaliste Paris",
+                        "Avocate pénaliste à Paris, intervention en urgence : garde à vue, convocation au commissariat, tribunal correctionnel, instruction, assises. Île-de-France — 07 62 35 22 98.",
                 },
                 {
                     name: "google-site-verification",
@@ -33,7 +39,7 @@ export default defineNuxtConfig({
                         "@type": "Attorney",
                         name: "Margaux Bendelac",
                         description:
-                            "Avocate au Barreau de Paris, spécialisée en droit pénal général, droit pénal des affaires et droit international des affaires.",
+                            "Avocate pénaliste au barreau de Paris : droit pénal général, droit pénal des mineurs et droit pénal des affaires.",
                         url: "https://www.bendelac-avocat.com",
                         telephone: "+33762352298",
                         address: {
@@ -107,7 +113,7 @@ export default defineNuxtConfig({
         url: "https://www.bendelac-avocat.com",
         name: "Margaux Bendelac | Avocate à la Cour",
         description:
-            "Avocate au Barreau de Paris, Droit pénal général, Droit pénal des affaires, Droit international des affaires. Urgence pénale. Avocat pénaliste Paris",
+            "Avocate pénaliste à Paris, intervention en urgence : garde à vue, convocation au commissariat, tribunal correctionnel, instruction, assises. Île-de-France — 07 62 35 22 98.",
         defaultLocale: "fr",
     },
 

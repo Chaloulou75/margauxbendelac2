@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: "Mentions Légales",
+  title: "Mentions légales | Margaux Bendelac",
   description:
     "Mentions légales du site du cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris.",
   ogTitle: "Mentions Légales — Margaux Bendelac",

@@ -133,3 +133,29 @@
 a.router-link-exact-active {
   @apply text-black;
 }
+
+/* Pages de contenu rédactionnel (cabinet, compétences, pages de situation…) */
+@layer components {
+  .page-content {
+    @apply w-full max-w-4xl px-4 py-8 mx-auto text-black md:px-8;
+  }
+  .page-content h1 {
+    @apply mb-6 text-3xl font-semibold md:mb-8 md:text-4xl;
+  }
+  .page-content h2 {
+    @apply mt-10 mb-4 text-2xl font-semibold md:text-3xl;
+  }
+  .page-content p {
+    @apply mb-4 text-xl md:text-2xl;
+  }
+  .page-content ul,
+  .page-content ol {
+    @apply mb-4 ml-6 space-y-2 text-xl md:text-2xl;
+  }
+  .page-content ul {
+    @apply list-disc;
+  }
+  .page-content a {
+    @apply text-blue-900 underline underline-offset-4 hover:text-blue-800;
+  }
+}

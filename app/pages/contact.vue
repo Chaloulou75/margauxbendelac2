@@ -2,12 +2,12 @@
 import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
 
 useSeoMeta({
-  title: "Contact — Cabinet Margaux Bendelac",
+  title: "Être rappelé par le cabinet — Contact",
   description:
-    "Contactez le cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. 99 rue de Courcelles, 75017 Paris. Urgence pénale disponible.",
-  ogTitle: "Contact — Cabinet Margaux Bendelac",
+    "Laissez vos coordonnées et le créneau qui vous convient : le cabinet vous rappelle. Pour une urgence, appelez directement le 07 62 35 22 98.",
+  ogTitle: "Être rappelé par le cabinet — Contact",
   ogDescription:
-    "Contactez le cabinet de Maître Margaux Bendelac, avocate pénaliste à Paris. 99 rue de Courcelles, 75017 Paris.",
+    "Laissez vos coordonnées et le créneau qui vous convient : le cabinet vous rappelle. Pour une urgence, appelez directement le 07 62 35 22 98.",
   ogUrl: "https://www.bendelac-avocat.com/contact",
   ogImage: "https://www.bendelac-avocat.com/img/margaux.jpg",
   twitterCard: "summary",
@@ -26,7 +26,7 @@ useSeoMeta({
             class="flex flex-col items-start justify-between w-full space-y-10 md:space-x-6 md:flex-row md:space-y-0"
         >
             <div class="flex flex-col w-full max-w-4xl px-4 mx-auto md:px-0">
-                <LazyFormContact />
+                <FormContact />
                 <div class="mt-8">
                     <h3
                         class="my-4 text-2xl font-semibold text-center text-black md:text-3xl md:mt-8"

@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: "Politique de Confidentialité",
+  title: "Politique de confidentialité | Margaux Bendelac",
   description:
     "Politique de confidentialité et de protection des données personnelles du site du cabinet de Maître Margaux Bendelac.",
   ogTitle: "Politique de Confidentialité — Margaux Bendelac",

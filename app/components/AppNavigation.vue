@@ -14,6 +14,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "~/components/ui/sheet";
+import { situations } from "~/data/situations";
 
 const sheetOpen = ref(false);
 const route = useRoute();
@@ -28,6 +29,13 @@ watch(sheetOpen, (open) => {
   if (!open) openMobileDropdown.value = null;
 });
 
+function isActive(item) {
+  return (
+    route.path === item.href ||
+    item.subItems?.some((subItem) => subItem.href === route.path)
+  );
+}
+
 const navigation = [
   { label: "Cabinet", href: "/cabinet" },
   {
@@ -40,19 +48,14 @@ const navigation = [
         hash: "#general",
       },
       {
+        label: "Droit pénal des mineurs",
+        href: "/competences",
+        hash: "#mineurs",
+      },
+      {
         label: "Droit pénal des affaires",
         href: "/competences",
         hash: "#affaires",
-      },
-      {
-        label: "Droit international des affaires",
-        href: "/competences",
-        hash: "#internationnal",
-      },
-      {
-        label: "Procédure disciplinaire",
-        href: "/competences",
-        hash: "#proceduredisciplinaire",
       },
     ],
   },
@@ -61,62 +64,10 @@ const navigation = [
     href: "/stades-de-la-procedure-penale",
     subItems: [
       {
-        label: "Audition libre",
+        label: "Toutes les étapes de la procédure",
         href: "/stades-de-la-procedure-penale",
-        hash: "#audition-libre",
       },
-      {
-        label: "Garde à vue",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#garde-a-vue",
-      },
-      {
-        label: "Composition pénale",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#composition-penale",
-      },
-      {
-        label: "Comparution sur reconnaissance préalable de culpabilité",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#comparution-culpabilite",
-      },
-      {
-        label: "Comparution immédiate",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#comparution-immediate",
-      },
-      {
-        label: "Mise en examen et instruction",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#mise-en-examen",
-      },
-      {
-        label:
-          "Placement sous contrôle judiciaire ou en détention provisoire",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#placement-controle",
-      },
-      {
-        label:
-          "Audience devant le tribunal correctionnel ou devant la cour d'appel",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#audience-correctionnel",
-      },
-      {
-        label: "Audience devant la cour d'assises",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#audience-assises",
-      },
-      {
-        label: "Contentieux pénitentiaire",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#contentieux-penitentiaire",
-      },
-      {
-        label: "Aménagement de peine",
-        href: "/stades-de-la-procedure-penale",
-        hash: "#amenagement-peine",
-      },
+      ...situations,
     ],
   },
   { label: "Presse", href: "/presse" },
@@ -152,7 +103,7 @@ const navigation = [
                 :to="item.href"
                 :class="[
                   navigationMenuTriggerStyle(),
-                  { 'shadow-sm': route.path === item.href },
+                  { 'shadow-sm': isActive(item) },
                 ]"
               >
                 {{ item.label }}
@@ -162,7 +113,7 @@ const navigation = [
             <!-- Dropdown link (with subItems) -->
             <NavigationMenuItem v-else>
               <NavigationMenuTrigger
-                :class="{ 'shadow-sm': route.path === item.href }"
+                :class="{ 'shadow-sm': isActive(item) }"
               >
                 {{ item.label }}
               </NavigationMenuTrigger>
@@ -216,7 +167,7 @@ const navigation = [
                   :to="item.href"
                   :class="[
                     'px-3 py-2 text-xl font-medium rounded-md hover:shadow-sm shrink-0',
-                    { 'shadow-sm': route.path === item.href },
+                    { 'shadow-sm': isActive(item) },
                   ]"
                   @click="sheetOpen = false"
                 >
@@ -228,7 +179,7 @@ const navigation = [
                     type="button"
                     :class="[
                       'flex items-center justify-between w-full px-3 py-2 text-xl font-medium rounded-md shrink-0 text-left hover:shadow-sm transition-shadow',
-                      { 'shadow-sm': route.path === item.href },
+                      { 'shadow-sm': isActive(item) },
                     ]"
                     @click="toggleMobileDropdown(index)"
                   >
