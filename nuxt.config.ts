@@ -117,6 +117,11 @@ export default defineNuxtConfig({
         defaultLocale: "fr",
     },
 
+    // Images de partage statiques (ogImage dans useSeoMeta) : pas de génération dynamique.
+    ogImage: {
+        enabled: false,
+    },
+
     gtag: {
         id: "G-W7J7EGRX9Y",
     },
