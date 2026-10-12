@@ -101,7 +101,7 @@ useSeoMeta({
 
     <h2>Faut-il reconnaître les faits ?</h2>
     <p>
-      Elle dépend de ce que contient le dossier, de la qualification retenue,
+      La réponse dépend de ce que contient le dossier, de la qualification retenue,
       qui n’est pas toujours celle qui correspond à ce qui s’est réellement
       passé, et des conséquences concrètes d’une condamnation sur la situation
       personnelle et professionnelle.
